@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			INFINIBAND_AMSO1100	
+				optional
+					INFINIBAND_AMSO1100_DEBUG

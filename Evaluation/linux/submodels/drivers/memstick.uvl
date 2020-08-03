@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			MEMSTICK	
+				optional
+					MEMSTICK_DEBUG

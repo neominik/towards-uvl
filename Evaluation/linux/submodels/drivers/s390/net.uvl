@@ -1,0 +1,16 @@
+namespace root
+
+features
+	root	
+		optional
+			CTCM
+			QETH	
+				optional
+					QETH_L2
+					QETH_L3
+			NETIUCV
+			CCWGROUP
+			CLAW
+			LCS
+			SMSGIUCV
+			QETH_IPV6

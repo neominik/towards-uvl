@@ -1,0 +1,16 @@
+namespace root
+
+features
+	root	
+		optional
+			ATM	
+				optional
+					ATM_CLIP	
+						optional
+							ATM_CLIP_NO_ICMP
+					ATM_LANE	
+						optional
+							ATM_MPOA
+					ATM_BR2684	
+						optional
+							ATM_BR2684_IPFILTER

@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			VIDEO_SAA7134	
+				optional
+					VIDEO_SAA7134_DVB
+					VIDEO_SAA7134_ALSA

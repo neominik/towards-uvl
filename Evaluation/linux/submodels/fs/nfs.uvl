@@ -1,0 +1,15 @@
+namespace root
+
+features
+	root	
+		optional
+			NFS_FS	
+				optional
+					NFS_V4	
+						optional
+							NFS_V4_1
+					NFS_V3	
+						optional
+							NFS_V3_ACL
+					ROOT_NFS
+			NFS_FSCACHE

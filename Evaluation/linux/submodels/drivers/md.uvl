@@ -1,0 +1,42 @@
+namespace root
+
+features
+	root	
+		optional
+			MD	
+				optional
+					MD_RAID6_PQ
+					ASYNC_RAID6_TEST
+					BLK_DEV_MD	
+						optional
+							MD_LINEAR
+							MD_RAID456	
+								optional
+									MULTICORE_RAID456
+							MD_AUTODETECT
+							MD_RAID1
+							MD_RAID0
+							MD_RAID10
+					BLK_DEV_DM	
+						optional
+							DM_UEVENT
+							DM_CRYPT
+							DM_ZERO
+							DM_DEBUG
+							DM_MIRROR	
+								optional
+									DM_LOG_USERSPACE
+							DM_SNAPSHOT
+							DM_MULTIPATH	
+								optional
+									DM_MULTIPATH_QL
+									DM_MULTIPATH_ST
+							DM_DELAY
+					MD_MULTIPATH
+					MD_FAULTY
+
+constraints
+	(!MD_RAID456 | !MD | !BLK_DEV_MD | MD_RAID6_PQ) & (!MD_RAID6_PQ | MD_RAID456 & MD & BLK_DEV_MD)
+	MD & MD_RAID6_PQ | !ASYNC_RAID6_TEST
+	MD & BLK_DEV_MD | !MD_MULTIPATH
+	MD & BLK_DEV_MD | !MD_FAULTY

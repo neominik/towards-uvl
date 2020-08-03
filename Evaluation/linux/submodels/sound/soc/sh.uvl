@@ -1,0 +1,14 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_SOC_SH4_SSI
+			SND_FSI_AK4642
+			SND_SH7760_AC97
+			SND_SOC_SH4_HAC
+			SND_SOC_SH4_FSI
+			SND_SOC_PCM_SH7760
+
+constraints
+	!SND_SOC_SH4_SSI

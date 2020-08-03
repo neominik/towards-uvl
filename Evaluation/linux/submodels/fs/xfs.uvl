@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			XFS_FS	
+				optional
+					XFS_QUOTA
+					XFS_DEBUG
+					XFS_POSIX_ACL
+					XFS_RT

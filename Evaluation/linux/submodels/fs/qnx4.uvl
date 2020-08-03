@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			QNX4FS_FS

@@ -1,0 +1,17 @@
+namespace N_1503296467__F_CB24154D8F34
+
+features
+	N_1503296467__F_CB24154D8F34	
+		mandatory
+			F_1D185851F626	
+				alternative
+					F_0E44E4DE77B8
+					F_CA691578A34D
+			F_3850D3424659	
+				alternative
+					F_3C5730BFA7B1
+					F_3427BB6CFCF2
+
+		optional
+			F_244AEDB10A05
+			F_952EBD805867

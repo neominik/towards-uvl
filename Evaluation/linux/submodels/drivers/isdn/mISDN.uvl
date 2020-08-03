@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			MISDN	
+				optional
+					MISDN_DSP
+					MISDN_L1OIP

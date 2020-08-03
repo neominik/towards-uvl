@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			SCSI_DH	
+				optional
+					SCSI_DH_RDAC
+					SCSI_DH_HP_SW
+					SCSI_DH_EMC
+					SCSI_DH_ALUA

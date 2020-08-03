@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			ARCH_SPARSEMEM_ENABLE

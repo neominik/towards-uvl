@@ -1,0 +1,7 @@
+namespace root
+
+features
+	root	
+		optional
+			IR_CORE
+			VIDEO_IR

@@ -1,0 +1,10 @@
+namespace root
+
+features
+	root	
+		optional
+			OF_MDIO
+			OF_DEVICE
+			OF_SPI
+			OF_I2C
+			OF_GPIO

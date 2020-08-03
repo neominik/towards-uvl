@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			P54_COMMON	
+				optional
+					P54_SPI
+					P54_USB
+					P54_PCI
+					P54_LEDS

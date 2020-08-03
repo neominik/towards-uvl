@@ -1,0 +1,16 @@
+namespace root
+
+features
+	root	
+		optional
+			TIPC	
+				optional
+					TIPC_DEBUG
+					TIPC_ADVANCED	
+						mandatory
+							TIPC_ZONES
+							TIPC_NODES
+							TIPC_LOG
+							TIPC_SLAVE_NODES
+							TIPC_PORTS
+							TIPC_CLUSTERS

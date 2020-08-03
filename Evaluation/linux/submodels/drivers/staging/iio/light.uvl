@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			SENSORS_TSL2563

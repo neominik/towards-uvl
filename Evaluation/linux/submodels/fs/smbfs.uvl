@@ -1,0 +1,10 @@
+namespace root
+
+features
+	root	
+		optional
+			SMB_FS	
+				optional
+					SMB_NLS_DEFAULT	
+						mandatory
+							SMB_NLS_REMOTE

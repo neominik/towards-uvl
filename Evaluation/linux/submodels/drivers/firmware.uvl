@@ -1,0 +1,17 @@
+namespace root
+
+features
+	root	
+		optional
+			EFI_VARS
+			DELL_RBU
+			DMIID
+			EFI_PCDP
+			EDD	
+				optional
+					EDD_OFF
+			FIRMWARE_MEMMAP
+			ISCSI_IBFT_FIND	
+				optional
+					ISCSI_IBFT
+			DCDBAS

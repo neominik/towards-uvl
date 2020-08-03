@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			TCG_TPM	
+				optional
+					TCG_INFINEON
+					TCG_ATMEL
+					TCG_NSC
+					TCG_TIS

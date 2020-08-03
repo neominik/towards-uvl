@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			EXT2_FS	
+				optional
+					EXT2_FS_XIP
+					EXT2_FS_XATTR	
+						optional
+							EXT2_FS_SECURITY
+							EXT2_FS_POSIX_ACL

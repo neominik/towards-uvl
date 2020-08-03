@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			UDF_FS	
+				optional
+					UDF_NLS

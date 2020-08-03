@@ -1,0 +1,19 @@
+namespace root
+
+features
+	root	
+		optional
+			LIBIPW
+			IPW2200	
+				optional
+					IPW2200_MONITOR	
+						optional
+							IPW2200_PROMISCUOUS
+							IPW2200_RADIOTAP
+					IPW2200_QOS
+					IPW2200_DEBUG
+			IPW2100	
+				optional
+					IPW2100_DEBUG
+					IPW2100_MONITOR
+			LIBIPW_DEBUG

@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_AOA_TAS
+			SND_AOA_TOONIE
+			SND_AOA_ONYX

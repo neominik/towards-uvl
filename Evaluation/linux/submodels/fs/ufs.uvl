@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			UFS_FS	
+				optional
+					UFS_DEBUG
+					UFS_FS_WRITE

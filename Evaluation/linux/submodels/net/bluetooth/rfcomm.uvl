@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			BT_RFCOMM	
+				optional
+					BT_RFCOMM_TTY

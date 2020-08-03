@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			ZD1211RW	
+				optional
+					ZD1211RW_DEBUG

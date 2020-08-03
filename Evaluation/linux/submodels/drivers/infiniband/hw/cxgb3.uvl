@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			INFINIBAND_CXGB3	
+				optional
+					INFINIBAND_CXGB3_DEBUG

@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			ATH5K	
+				optional
+					ATH5K_DEBUG

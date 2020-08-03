@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			HYSDN	
+				optional
+					HYSDN_CAPI

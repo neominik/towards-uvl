@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			BT	
+				optional
+					BT_SCO
+					BT_L2CAP

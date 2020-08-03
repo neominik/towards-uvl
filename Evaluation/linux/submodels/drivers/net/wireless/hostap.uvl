@@ -1,0 +1,13 @@
+namespace root
+
+features
+	root	
+		optional
+			HOSTAP	
+				optional
+					HOSTAP_FIRMWARE	
+						optional
+							HOSTAP_FIRMWARE_NVRAM
+					HOSTAP_PCI
+					HOSTAP_PLX
+					HOSTAP_CS

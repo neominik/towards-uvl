@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			VIRTIO
+			VIRTIO_RING
+			VIRTIO_PCI
+			VIRTIO_BALLOON

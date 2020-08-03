@@ -1,0 +1,23 @@
+namespace root
+
+features
+	root	
+		optional
+			AGP	
+				optional
+					AGP_INTEL
+					AGP_HP_ZX1
+					AGP_ALI
+					AGP_AMD64
+					AGP_I460
+					AGP_SWORKS
+					AGP_NVIDIA
+					AGP_EFFICEON
+					AGP_ALPHA_CORE
+					AGP_UNINORTH
+					AGP_PARISC
+					AGP_ATI
+					AGP_VIA
+					AGP_SIS
+					AGP_AMD
+					AGP_SGI_TIOCA

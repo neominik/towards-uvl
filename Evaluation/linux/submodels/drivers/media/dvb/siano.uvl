@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			SMS_SIANO_MDTV	
+				optional
+					SMS_SDIO_DRV
+					SMS_USB_DRV

@@ -1,0 +1,28 @@
+namespace root
+
+features
+	root	
+		optional
+			CRYPTO_HW	
+				optional
+					CRYPTO_SHA256_S390
+					CRYPTO_DEV_PADLOCK	
+						optional
+							CRYPTO_DEV_PADLOCK_SHA
+							CRYPTO_DEV_PADLOCK_AES
+					CRYPTO_SHA1_S390
+					CRYPTO_AES_S390
+					CRYPTO_DES_S390
+					S390_PRNG
+					CRYPTO_DEV_MV_CESA
+					CRYPTO_DEV_HIFN_795X	
+						optional
+							CRYPTO_DEV_HIFN_795X_RNG
+					CRYPTO_DEV_GEODE
+					CRYPTO_DEV_PPC4XX
+					ZCRYPT	
+						optional
+							ZCRYPT_MONOLITHIC
+					CRYPTO_DEV_TALITOS
+					CRYPTO_DEV_IXP4XX
+					CRYPTO_SHA512_S390

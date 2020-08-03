@@ -1,0 +1,26 @@
+namespace root
+
+features
+	root	
+		mandatory
+			EXTRA_FIRMWARE_DIR
+			UEVENT_HELPER_PATH
+
+		optional
+			FW_LOADER	
+				mandatory
+					EXTRA_FIRMWARE
+
+				optional
+					FIRMWARE_IN_KERNEL
+			DEBUG_DRIVER
+			PREVENT_FIRMWARE_BUILD
+			DEVTMPFS	
+				optional
+					DEVTMPFS_MOUNT
+			DEBUG_DEVRES
+			STANDALONE
+			SYS_HYPERVISOR
+
+constraints
+	EXTRA_FIRMWARE | !EXTRA_FIRMWARE_DIR | !(!EXTRA_FIRMWARE)

@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			DRM_RADEON_KMS

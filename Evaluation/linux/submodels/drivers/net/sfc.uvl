@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			SFC	
+				optional
+					SFC_MTD

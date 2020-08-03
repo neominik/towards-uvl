@@ -1,0 +1,15 @@
+namespace root
+
+features
+	root	
+		optional
+			NET_DSA	
+				optional
+					NET_DSA_MV88E6XXX
+					NET_DSA_TAG_EDSA
+					NET_DSA_TAG_DSA
+					NET_DSA_TAG_TRAILER
+					NET_DSA_MV88E6123_61_65
+					NET_DSA_MV88E6XXX_NEED_PPU
+					NET_DSA_MV88E6060
+					NET_DSA_MV88E6131

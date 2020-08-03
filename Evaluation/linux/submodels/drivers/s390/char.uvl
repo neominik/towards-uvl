@@ -1,0 +1,36 @@
+namespace root
+
+features
+	root	
+		optional
+			S390_TAPE	
+				optional
+					S390_TAPE_BLOCK
+					S390_TAPE_3590
+					S390_TAPE_34XX
+			VMLOGRDR
+			VMCP
+			CCW_CONSOLE
+			TN3270	
+				optional
+					TN3270_CONSOLE
+					TN3270_TTY
+					TN3270_FS
+			SCLP_TTY	
+				optional
+					SCLP_CONSOLE
+			SCLP_VT220_TTY	
+				optional
+					SCLP_VT220_CONSOLE
+			SCLP_ASYNC
+			S390_VMUR
+			SCLP_CPI
+			MONREADER
+			MONWRITER
+			TN3215	
+				optional
+					TN3215_CONSOLE
+
+constraints
+	TN3270 & TN3270_TTY | !TN3270_CONSOLE
+	(!TN3215_CONSOLE & !TN3270_CONSOLE | CCW_CONSOLE) & (!CCW_CONSOLE | TN3215_CONSOLE | TN3270_CONSOLE)

@@ -1,0 +1,52 @@
+namespace root
+
+features
+	root	
+		optional
+			SPI	
+				optional
+					SPI_PL022
+					SPI_AU1550
+					SPI_STMP3XXX
+					SPI_MPC52xx_PSC
+					SPI_BITBANG
+					SPI_S3C24XX	
+						optional
+							SPI_S3C24XX_FIQ
+					SPI_BFIN
+					SPI_NUC900
+					SPI_ORION
+					SPI_S3C24XX_GPIO
+					SPI_DESIGNWARE	
+						optional
+							SPI_DW_PCI
+					SPI_MPC52xx
+					SPI_LM70_LLP
+					SPI_SH_MSIOF
+					SPI_SH_SCI
+					SPI_TLE62X0
+					SPI_DEBUG
+					SPI_OMAP24XX
+					SPI_SPIDEV
+					SPI_IMX
+					SPI_BUTTERFLY
+					SPI_ATMEL
+					SPI_PXA2XX
+					SPI_OMAP_UWIRE
+					SPI_GPIO
+					SPI_MPC8xxx
+					SPI_OMAP_100K
+					SPI_XILINX	
+						optional
+							SPI_XILINX_PLTFM
+							SPI_XILINX_OF
+					SPI_S3C64XX
+					SPI_PPC4xx
+					SPI_TXX9
+					SPI_MASTER
+
+constraints
+	(!SPI | SPI_MASTER) & (!SPI_MASTER | SPI & SPI)
+	SPI & SPI_MASTER & SPI_S3C24XX | !SPI_S3C24XX_FIQ
+	SPI & SPI_MASTER & SPI_XILINX | !SPI_XILINX_PLTFM
+	SPI & SPI_MASTER | !SPI_DESIGNWARE

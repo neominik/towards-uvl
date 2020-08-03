@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			CB710_CORE	
+				optional
+					CB710_DEBUG
+					CB710_DEBUG_ASSUMPTIONS

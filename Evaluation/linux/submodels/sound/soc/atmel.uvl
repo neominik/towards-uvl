@@ -1,0 +1,13 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_ATMEL_SOC	
+				optional
+					SND_AT91_SOC_AFEB9260
+					SND_AT32_SOC_PLAYPAQ	
+						optional
+							SND_AT32_SOC_PLAYPAQ_SLAVE
+					SND_ATMEL_SOC_SSC
+					SND_AT91_SOC_SAM9G20_WM8731

@@ -1,0 +1,35 @@
+namespace root
+
+features
+	root	
+		optional
+			MISC_DEVICES	
+				optional
+					IBM_ASM
+					ENCLOSURE_SERVICES
+					TI_DAC7512
+					ATMEL_SSC
+					SGI_GRU	
+						optional
+							SGI_GRU_DEBUG
+					DS1682
+					AD525X_DPOT
+					CS5535_MFGPT	
+						mandatory
+							CS5535_MFGPT_DEFAULT_IRQ
+					ATMEL_PWM
+					ATMEL_TCLIB	
+						optional
+							ATMEL_TCB_CLKSRC	
+								mandatory
+									ATMEL_TCB_CLKSRC_BLOCK
+					PHANTOM
+					TIFM_CORE	
+						optional
+							TIFM_7XX1
+					SGI_IOC4
+					EP93XX_PWM
+					HP_ILO
+					ICS932S401
+					ISL29003
+					SGI_XP

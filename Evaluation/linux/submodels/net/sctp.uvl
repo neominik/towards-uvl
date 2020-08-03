@@ -1,0 +1,14 @@
+namespace root
+
+features
+	root	
+		optional
+			IP_SCTP	
+				mandatory
+					SCTP_HMAC_NONE
+					SCTP_HMAC_SHA1
+					SCTP_HMAC_MD5
+
+				optional
+					SCTP_DBG_MSG
+					SCTP_DBG_OBJCNT

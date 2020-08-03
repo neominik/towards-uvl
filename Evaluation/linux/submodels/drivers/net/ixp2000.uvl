@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			ENP2611_MSF_NET

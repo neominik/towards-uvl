@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			VIRTUALIZATION	
+				optional
+					KVM	
+						optional
+							KVM_AMD
+							KVM_INTEL

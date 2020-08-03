@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			DMASOUND_ATARI
+			DMASOUND_PAULA
+			DMASOUND_Q40
+			DMASOUND

@@ -1,0 +1,33 @@
+namespace root
+
+features
+	root	
+		optional
+			IPV6	
+				optional
+					INET6_XFRM_MODE_TRANSPORT
+					IPV6_MIP6
+					IPV6_PRIVACY
+					IPV6_MULTIPLE_TABLES	
+						optional
+							IPV6_SUBTREES
+					INET6_ESP
+					INET6_XFRM_MODE_TUNNEL
+					IPV6_OPTIMISTIC_DAD
+					IPV6_MROUTE	
+						optional
+							IPV6_PIMSM_V2
+					INET6_XFRM_TUNNEL
+					INET6_XFRM_MODE_BEET
+					IPV6_NDISC_NODETYPE
+					IPV6_ROUTER_PREF	
+						optional
+							IPV6_ROUTE_INFO
+					INET6_TUNNEL
+					IPV6_SIT	
+						optional
+							IPV6_SIT_6RD
+					INET6_XFRM_MODE_ROUTEOPTIMIZATION
+					IPV6_TUNNEL
+					INET6_IPCOMP
+					INET6_AH

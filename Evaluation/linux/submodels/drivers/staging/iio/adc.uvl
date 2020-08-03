@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			MAX1363	
+				optional
+					MAX1363_RING_BUFFER

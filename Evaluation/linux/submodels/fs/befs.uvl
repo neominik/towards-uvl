@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			BEFS_FS	
+				optional
+					BEFS_DEBUG

@@ -1,0 +1,18 @@
+namespace root
+
+features
+	root	
+		optional
+			UBIFS_FS	
+				optional
+					UBIFS_FS_ADVANCED_COMPR	
+						optional
+							UBIFS_FS_LZO
+							UBIFS_FS_ZLIB
+					UBIFS_FS_XATTR
+					UBIFS_FS_DEBUG	
+						mandatory
+							UBIFS_FS_DEBUG_MSG_LVL
+
+						optional
+							UBIFS_FS_DEBUG_CHKS

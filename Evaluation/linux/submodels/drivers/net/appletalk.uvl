@@ -1,0 +1,18 @@
+namespace root
+
+features
+	root	
+		optional
+			ATALK	
+				optional
+					DEV_APPLETALK	
+						optional
+							COPS	
+								optional
+									COPS_DAYNA
+									COPS_TANGENT
+							IPDDP	
+								optional
+									IPDDP_ENCAP
+									IPDDP_DECAP
+							LTPC

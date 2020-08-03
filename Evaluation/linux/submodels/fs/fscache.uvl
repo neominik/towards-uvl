@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			FSCACHE	
+				optional
+					FSCACHE_DEBUG
+					FSCACHE_OBJECT_LIST
+					FSCACHE_STATS
+					FSCACHE_HISTOGRAM

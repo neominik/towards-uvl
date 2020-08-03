@@ -1,0 +1,7 @@
+namespace root
+
+features
+	root	
+		optional
+			E9P_FS
+			E9P_FSCACHE

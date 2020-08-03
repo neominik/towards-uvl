@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			MTD_UBI	
+				mandatory
+					MTD_UBI_WL_THRESHOLD
+					MTD_UBI_BEB_RESERVE
+
+				optional
+					MTD_UBI_GLUEBI

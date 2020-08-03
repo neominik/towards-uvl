@@ -1,0 +1,36 @@
+namespace root
+
+features
+	root	
+		optional
+			MTD_GEN_PROBE
+			MTD_ABSENT
+			MTD_CFI_INTELEXT
+			MTD_CFI_STAA
+			MTD_CFI_AMDSTD
+			MTD_XIP
+			MTD_CFI
+			MTD_JEDECPROBE
+			MTD_CFI_UTIL
+			MTD_CFI_ADV_OPTIONS	
+				mandatory
+					MTD_CFI_NOSWAP
+					MTD_CFI_BE_BYTE_SWAP
+					MTD_CFI_LE_BYTE_SWAP
+
+				optional
+					MTD_CFI_GEOMETRY	
+						optional
+							MTD_MAP_BANK_WIDTH_1
+							MTD_CFI_I4
+							MTD_MAP_BANK_WIDTH_8
+							MTD_MAP_BANK_WIDTH_2
+							MTD_CFI_I8
+							MTD_CFI_I1
+							MTD_CFI_I2
+							MTD_MAP_BANK_WIDTH_32
+							MTD_MAP_BANK_WIDTH_16
+							MTD_MAP_BANK_WIDTH_4
+					MTD_OTP
+			MTD_RAM
+			MTD_ROM

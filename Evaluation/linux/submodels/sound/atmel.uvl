@@ -1,0 +1,7 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_ATMEL_ABDAC
+			SND_ATMEL_AC97C

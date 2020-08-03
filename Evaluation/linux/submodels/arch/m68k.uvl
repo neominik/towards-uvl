@@ -1,0 +1,25 @@
+namespace root
+
+features
+	root	
+		mandatory
+			NODES_SHIFT
+			HZ
+
+		optional
+			GENERIC_TIME
+			PCMCIA
+			ARCH_MAY_HAVE_PC_FDC
+			MCA
+			GENERIC_CALIBRATE_DELAY
+			RWSEM_GENERIC_SPINLOCK
+			GENERIC_IOMAP
+			ISA	
+				optional
+					EISA
+			GENERIC_ISA_DMA
+			MMU
+			GENERIC_HWEIGHT
+			ZONE_DMA
+			ARCH_DISCONTIGMEM_ENABLE
+			RWSEM_XCHGADD_ALGORITHM

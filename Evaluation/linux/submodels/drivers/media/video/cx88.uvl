@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			VIDEO_CX88_VP3054
+			VIDEO_CX88_MPEG
+			VIDEO_CX88	
+				optional
+					VIDEO_CX88_DVB
+					VIDEO_CX88_ALSA
+					VIDEO_CX88_BLACKBIRD

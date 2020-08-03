@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			SCSI_OSD_INITIATOR	
+				mandatory
+					SCSI_OSD_DPRINT_SENSE
+
+				optional
+					SCSI_OSD_ULD
+					SCSI_OSD_DEBUG

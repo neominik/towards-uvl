@@ -1,0 +1,7 @@
+namespace root
+
+features
+	root	
+		optional
+			VIDEO_SAA7146
+			VIDEO_SAA7146_VV

@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			SYNCLINK_CS
+			IPWIRELESS
+			CARDMAN_4000
+			CARDMAN_4040

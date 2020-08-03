@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_PXA2XX_AC97
+			SND_ARM	
+				optional
+					SND_PXA2XX_LIB
+					SND_PXA2XX_PCM
+					SND_PXA2XX_LIB_AC97
+					SND_ARMAACI

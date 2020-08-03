@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			OCFS2_FS	
+				optional
+					OCFS2_FS_STATS
+					OCFS2_DEBUG_FS
+					OCFS2_FS_O2CB
+					OCFS2_FS_USERSPACE_CLUSTER
+					OCFS2_DEBUG_MASKLOG

@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			AUTOFS4_FS

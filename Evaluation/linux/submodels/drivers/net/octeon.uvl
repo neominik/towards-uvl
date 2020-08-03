@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			OCTEON_MGMT_ETHERNET

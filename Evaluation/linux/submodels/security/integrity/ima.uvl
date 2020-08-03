@@ -1,0 +1,15 @@
+namespace root
+
+features
+	root	
+		optional
+			IMA	
+				mandatory
+					IMA_MEASURE_PCR_IDX
+
+				optional
+					IMA_LSM_RULES
+					IMA_AUDIT
+
+constraints
+	(!IMA | IMA_AUDIT) & (!IMA_AUDIT | IMA)

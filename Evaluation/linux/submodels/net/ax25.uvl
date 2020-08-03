@@ -1,0 +1,14 @@
+namespace root
+
+features
+	root	
+		optional
+			HAMRADIO	
+				optional
+					AX25	
+						optional
+							AX25_DAMA_SLAVE	
+								optional
+									AX25_DAMA_MASTER
+							ROSE
+							NETROM

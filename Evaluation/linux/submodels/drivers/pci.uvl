@@ -1,0 +1,13 @@
+namespace root
+
+features
+	root	
+		optional
+			PCI_DEBUG
+			HT_IRQ
+			PCI_LEGACY
+			PCI_IOAPIC
+			ARCH_SUPPORTS_MSI
+			PCI_STUB
+			PCI_IOV
+			PCI_MSI

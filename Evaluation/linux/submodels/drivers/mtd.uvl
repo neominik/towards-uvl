@@ -1,0 +1,39 @@
+namespace root
+
+features
+	root	
+		optional
+			MTD	
+				optional
+					MTD_DEBUG	
+						mandatory
+							MTD_DEBUG_VERBOSE
+					SSFDC
+					HAVE_MTD_OTP
+					MTD_CHAR
+					MTD_PARTITIONS	
+						optional
+							MTD_AR7_PARTS
+							MTD_AFS_PARTS
+							MTD_CMDLINE_PARTS
+							MTD_REDBOOT_PARTS	
+								mandatory
+									MTD_REDBOOT_DIRECTORY_BLOCK
+
+								optional
+									MTD_REDBOOT_PARTS_READONLY
+									MTD_REDBOOT_PARTS_UNALLOCATED
+							MTD_OF_PARTS
+					MTD_CONCAT
+					MTD_TESTS
+					FTL
+					NFTL	
+						optional
+							NFTL_RW
+					INFTL
+					RFD_FTL
+					MTD_OOPS
+					MTD_BLOCK	
+						optional
+							MTD_BLOCK_RO
+					MTD_BLKDEVS

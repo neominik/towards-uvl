@@ -1,0 +1,25 @@
+namespace root
+
+features
+	root	
+		mandatory
+			PREEMPT
+			HZ
+
+		optional
+			GENERIC_TIME
+			PCI
+			GENERIC_HARDIRQS
+			GENERIC_CALIBRATE_DELAY
+			GENERIC_GPIO
+			MMU
+			GENERIC_FIND_NEXT_BIT
+			GENERIC_HWEIGHT
+			ZONE_DMA
+			FRAME_POINTER
+			HOTPLUG
+			MATH_EMULATION
+			RWSEM_XCHGADD_ALGORITHM
+			CMDLINE_BOOL	
+				mandatory
+					CMDLINE

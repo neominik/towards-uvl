@@ -1,0 +1,13 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_USB	
+				optional
+					SND_USB_CAIAQ	
+						optional
+							SND_USB_CAIAQ_INPUT
+					SND_USB_USX2Y
+					SND_USB_US122L
+					SND_USB_AUDIO

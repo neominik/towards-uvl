@@ -1,0 +1,15 @@
+namespace root
+
+features
+	root	
+		optional
+			NCP_FS	
+				optional
+					NCPFS_NFS_NS
+					NCPFS_IOCTL_LOCKING
+					NCPFS_SMALLDOS
+					NCPFS_NLS
+					NCPFS_PACKET_SIGNING
+					NCPFS_EXTRAS
+					NCPFS_STRONG
+					NCPFS_OS2_NS

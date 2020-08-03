@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			INFINIBAND_MTHCA	
+				optional
+					INFINIBAND_MTHCA_DEBUG

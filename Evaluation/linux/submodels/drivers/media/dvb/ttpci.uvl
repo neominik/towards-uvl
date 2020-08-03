@@ -1,0 +1,15 @@
+namespace root
+
+features
+	root	
+		optional
+			TTPCI_EEPROM
+			DVB_BUDGET_CORE	
+				optional
+					DVB_BUDGET_PATCH
+					DVB_BUDGET_CI
+					DVB_BUDGET_AV
+					DVB_BUDGET
+			DVB_AV7110	
+				optional
+					DVB_AV7110_OSD

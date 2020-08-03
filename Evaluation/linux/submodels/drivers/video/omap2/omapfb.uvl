@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			FB_OMAP2	
+				mandatory
+					FB_OMAP2_NUM_FBS
+
+				optional
+					FB_OMAP2_DEBUG_SUPPORT
+					FB_OMAP2_FORCE_AUTO_UPDATE

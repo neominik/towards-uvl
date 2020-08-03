@@ -1,0 +1,7 @@
+namespace root
+
+features
+	root	
+		optional
+			VME_CA91CX42
+			VME_TSI148

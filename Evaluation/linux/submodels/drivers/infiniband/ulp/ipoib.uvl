@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			INFINIBAND_IPOIB	
+				optional
+					INFINIBAND_IPOIB_CM
+					INFINIBAND_IPOIB_DEBUG	
+						optional
+							INFINIBAND_IPOIB_DEBUG_DATA

@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			USB_SUPPORT	
+				optional
+					USB_ARCH_HAS_OHCI
+					USB_ARCH_HAS_HCD
+					USB_ARCH_HAS_EHCI
+					USB_USS720
+					USB

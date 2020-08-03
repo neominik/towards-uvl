@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_MX1_MX2_SOC
+			SND_SOC_MX27VIS_WM8974
+			SND_MXC_SOC_SSI

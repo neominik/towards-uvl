@@ -1,0 +1,31 @@
+namespace N_2901286810__F_DA37EE9A3865
+
+features
+	N_2901286810__F_DA37EE9A3865	
+		mandatory
+			F_A26E60EDCF2B	
+				alternative
+					F_281B3C652497
+					F_D97ACC2C22A6
+			F_4E7653F57697	
+				alternative
+					F_0598D34EDF83
+					F_B0E187F985AF
+			F_E55E32F8CA16	
+				alternative
+					F_7DDFB875B04D
+					F_FBBF4FE7F31E
+			F_56EEA5D47B24	
+				alternative
+					F_FE6734AC9862
+					F_396ACC1927A8
+
+		optional
+			F_A11107388BAB	
+				alternative
+					F_6B85BC64D6A1
+					F_83244E74841C
+					F_BF139ACC369E
+					F_919C7307509C
+			F_BA7F3F30C4D8
+			F_B0D90777F219

@@ -1,0 +1,14 @@
+namespace root
+
+features
+	root	
+		optional
+			IP_DCCP_TFRC_LIB
+			IP_DCCP_CCID2_DEBUG
+			IP_DCCP_CCID3	
+				mandatory
+					IP_DCCP_CCID3_RTO
+
+				optional
+					IP_DCCP_CCID3_DEBUG
+			IP_DCCP_TFRC_DEBUG

@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			VLAN_8021Q	
+				optional
+					VLAN_8021Q_GVRP

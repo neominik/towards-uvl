@@ -1,0 +1,22 @@
+namespace root
+
+features
+	root	
+		optional
+			NET_TULIP	
+				optional
+					DE2104X	
+						mandatory
+							DE2104X_DSL
+					TULIP	
+						optional
+							TULIP_NAPI	
+								optional
+									TULIP_NAPI_HW_MITIGATION
+							TULIP_MWI
+							TULIP_MMIO
+					PCMCIA_XIRCOM
+					DE4X5
+					DM9102
+					ULI526X
+					WINBOND_840

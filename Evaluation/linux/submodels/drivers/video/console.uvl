@@ -1,0 +1,34 @@
+namespace root
+
+features
+	root	
+		mandatory
+			DUMMY_CONSOLE_COLUMNS
+			DUMMY_CONSOLE_ROWS
+
+		optional
+			FRAMEBUFFER_CONSOLE	
+				optional
+					FRAMEBUFFER_CONSOLE_ROTATION
+					FRAMEBUFFER_CONSOLE_DETECT_PRIMARY
+			FONT_SUN8x16
+			STI_CONSOLE
+			SGI_NEWPORT_CONSOLE
+			FONT_10x18
+			DUMMY_CONSOLE
+			MDA_CONSOLE
+			VGA_CONSOLE	
+				optional
+					VGACON_SOFT_SCROLLBACK	
+						mandatory
+							VGACON_SOFT_SCROLLBACK_SIZE
+			FONTS	
+				optional
+					FONT_PEARL_8x8
+					FONT_8x16
+					FONT_ACORN_8x8
+					FONT_7x14
+					FONT_MINI_4x6
+					FONT_8x8
+					FONT_6x11
+			FONT_SUN12x22

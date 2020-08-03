@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			COMEDI	
+				optional
+					COMEDI_PCI_DRIVERS
+					COMEDI_USB_DRIVERS
+					COMEDI_PCMCIA_DRIVERS
+					COMEDI_DEBUG

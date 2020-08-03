@@ -1,0 +1,14 @@
+namespace root
+
+features
+	root	
+		optional
+			CAPI_EICON	
+				optional
+					ISDN_DIVAS	
+						optional
+							ISDN_DIVAS_DIVACAPI
+							ISDN_DIVAS_MAINT
+							ISDN_DIVAS_USERIDI
+							ISDN_DIVAS_BRIPCI
+							ISDN_DIVAS_PRIPCI

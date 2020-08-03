@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			IDE_PHISON

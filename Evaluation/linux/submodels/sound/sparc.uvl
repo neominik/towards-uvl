@@ -1,0 +1,10 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_SPARC	
+				optional
+					SND_SUN_CS4231
+					SND_SUN_DBRI
+					SND_SUN_AMD7930

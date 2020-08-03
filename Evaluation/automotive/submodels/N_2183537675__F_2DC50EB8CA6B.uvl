@@ -1,0 +1,12 @@
+namespace N_2183537675__F_2DC50EB8CA6B
+
+features
+	N_2183537675__F_2DC50EB8CA6B	
+		mandatory
+			F_69B429BBF4AE	
+				alternative
+					F_DCB210C316C4
+					F_8B868816FF21
+
+		optional
+			F_30BDE74F3939

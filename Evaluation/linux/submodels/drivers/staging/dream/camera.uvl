@@ -1,0 +1,13 @@
+namespace root
+
+features
+	root	
+		optional
+			MSM_CAMERA	
+				optional
+					MSM_CAMERA_DEBUG
+					MSM_CAMERA_FLASH
+			MT9P012
+			S5K3E2FX
+			MT9D112
+			MT9T013

@@ -1,0 +1,38 @@
+namespace root
+
+features
+	root	
+		optional
+			ACPI	
+				mandatory
+					ACPI_BLACKLIST_YEAR
+					ACPI_CUSTOM_DSDT_FILE
+
+				optional
+					ACPI_SLEEP
+					ACPI_PROCFS
+					ACPI_PROC_EVENT
+					ACPI_SYSFS_POWER
+					ACPI_DEBUG	
+						optional
+							ACPI_DEBUG_FUNC_TRACE
+					ACPI_CONTAINER
+					ACPI_FAN
+					ACPI_VIDEO
+					ACPI_PCI_SLOT
+					ACPI_PROCFS_POWER
+					ACPI_POWER_METER
+					ACPI_HOTPLUG_MEMORY
+					ACPI_AC
+					ACPI_CUSTOM_DSDT
+					X86_PM_TIMER
+					ACPI_DOCK
+					ACPI_NUMA
+					ACPI_SBS
+					ACPI_PROCESSOR	
+						optional
+							ACPI_PROCESSOR_AGGREGATOR
+							ACPI_HOTPLUG_CPU
+							ACPI_THERMAL
+					ACPI_BATTERY
+					ACPI_BUTTON

@@ -1,0 +1,7 @@
+namespace root
+
+features
+	root	
+		optional
+			MEMSTICK_JMICRON_38X
+			MEMSTICK_TIFM_MS

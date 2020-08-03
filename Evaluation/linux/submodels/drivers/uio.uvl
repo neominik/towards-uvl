@@ -1,0 +1,14 @@
+namespace root
+
+features
+	root	
+		optional
+			UIO	
+				optional
+					UIO_AEC
+					UIO_PDRV
+					UIO_CIF
+					UIO_SERCOS3
+					UIO_PDRV_GENIRQ
+					UIO_PCI_GENERIC
+					UIO_SMX

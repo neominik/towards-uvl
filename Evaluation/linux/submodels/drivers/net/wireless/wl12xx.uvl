@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			WL12XX	
+				optional
+					WL1271
+					WL1251	
+						optional
+							WL1251_SDIO
+							WL1251_SPI

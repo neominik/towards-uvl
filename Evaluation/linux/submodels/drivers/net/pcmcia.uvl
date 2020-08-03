@@ -1,0 +1,17 @@
+namespace root
+
+features
+	root	
+		optional
+			NET_PCMCIA	
+				optional
+					PCMCIA_AXNET
+					PCMCIA_PCNET
+					PCMCIA_SMC91C92
+					PCMCIA_NMCLAN
+					PCMCIA_3C574
+					PCMCIA_3C589
+					ARCNET_COM20020_CS
+					PCMCIA_XIRC2PS
+					PCMCIA_FMVJ18X
+					PCMCIA_IBMTR

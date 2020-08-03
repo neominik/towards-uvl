@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			LIBERTAS	
+				optional
+					LIBERTAS_SPI
+					LIBERTAS_USB
+					LIBERTAS_SDIO
+					LIBERTAS_DEBUG
+					LIBERTAS_CS

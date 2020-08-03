@@ -1,0 +1,33 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_HDA_INTEL	
+				optional
+					SND_HDA_CODEC_CONEXANT
+					SND_HDA_INPUT_JACK
+					SND_HDA_PATCH_LOADER
+					SND_HDA_HWDEP	
+						optional
+							SND_HDA_RECONFIG
+					SND_HDA_CODEC_SI3054
+					SND_HDA_CODEC_SIGMATEL
+					SND_HDA_CODEC_REALTEK
+					SND_HDA_GENERIC
+					SND_HDA_POWER_SAVE	
+						mandatory
+							SND_HDA_POWER_SAVE_DEFAULT
+					SND_HDA_CODEC_NVHDMI
+					SND_HDA_CODEC_CMEDIA
+					SND_HDA_CODEC_VIA
+					SND_HDA_CODEC_INTELHDMI	
+						optional
+							SND_HDA_ELD
+					SND_HDA_INPUT_BEEP	
+						mandatory
+							SND_HDA_INPUT_BEEP_MODE
+					SND_HDA_CODEC_CIRRUS
+					SND_HDA_CODEC_ATIHDMI
+					SND_HDA_CODEC_CA0110
+					SND_HDA_CODEC_ANALOG

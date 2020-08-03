@@ -1,0 +1,28 @@
+namespace root
+
+features
+	root	
+		optional
+			PM_SLEEP_SMP
+			SUSPEND	
+				optional
+					SUSPEND_FREEZER
+					PM_TEST_SUSPEND
+			HIBERNATION	
+				mandatory
+					PM_STD_PARTITION
+			PM	
+				optional
+					PM_DEBUG	
+						optional
+							PM_VERBOSE
+							CAN_PM_TRACE
+			PM_TRACE_RTC
+			PM_SLEEP
+			PM_TRACE
+			APM_EMULATION
+			PM_RUNTIME
+			HIBERNATION_NVS
+
+constraints
+	PM | !PM_RUNTIME

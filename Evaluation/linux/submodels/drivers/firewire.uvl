@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			FIREWIRE	
+				optional
+					FIREWIRE_SBP2
+					FIREWIRE_OHCI	
+						optional
+							FIREWIRE_OHCI_DEBUG
+					FIREWIRE_NET

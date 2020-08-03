@@ -1,0 +1,17 @@
+namespace root
+
+features
+	root	
+		optional
+			CAPI_AVM	
+				optional
+					ISDN_DRV_AVMB1_T1PCI
+					ISDN_DRV_AVMB1_T1ISA
+					ISDN_DRV_AVMB1_C4
+					ISDN_DRV_AVMB1_B1PCMCIA	
+						optional
+							ISDN_DRV_AVMB1_AVM_CS
+					ISDN_DRV_AVMB1_B1PCI	
+						optional
+							ISDN_DRV_AVMB1_B1PCIV4
+					ISDN_DRV_AVMB1_B1ISA

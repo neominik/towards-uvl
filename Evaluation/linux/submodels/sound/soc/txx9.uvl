@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_SOC_TXX9ACLC_AC97
+			HAS_TXX9_ACLC
+			SND_SOC_TXX9ACLC
+			SND_SOC_TXX9ACLC_GENERIC
+
+constraints
+	!HAS_TXX9_ACLC

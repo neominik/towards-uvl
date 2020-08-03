@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			AFFS_FS

@@ -1,0 +1,13 @@
+namespace root
+
+features
+	root	
+		optional
+			XEN_SYS_HYPERVISOR
+			XENFS	
+				optional
+					XEN_COMPAT_XENFS
+			XEN_BALLOON	
+				optional
+					XEN_SCRUB_PAGES
+			XEN_DEV_EVTCHN

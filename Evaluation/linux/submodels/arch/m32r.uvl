@@ -1,0 +1,40 @@
+namespace root
+
+features
+	root	
+		mandatory
+			PREEMPT
+			NR_CPUS
+			NODES_SHIFT
+			HZ
+
+		optional
+			GENERIC_TIME
+			PCI	
+				mandatory
+					PCI_GOBIOS
+					PCI_GODIRECT
+					PCI_GOANY
+
+				optional
+					PCI_BIOS
+					PCI_DIRECT
+			GENERIC_HARDIRQS
+			SMP
+			GENERIC_CALIBRATE_DELAY
+			RWSEM_GENERIC_SPINLOCK
+			ISA
+			GENERIC_ISA_DMA
+			MMU
+			NUMA
+			GENERIC_FIND_NEXT_BIT
+			GENERIC_HWEIGHT
+			ZONE_DMA
+			SCHED_OMIT_FRAME_POINTER
+			ARCH_DISCONTIGMEM_ENABLE
+			GENERIC_IRQ_PROBE
+			SBUS
+			RWSEM_XCHGADD_ALGORITHM
+
+constraints
+	!SBUS

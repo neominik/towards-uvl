@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			KVM_APIC_ARCHITECTURE
+			HAVE_KVM
+			HAVE_KVM_IRQCHIP
+			HAVE_KVM_EVENTFD

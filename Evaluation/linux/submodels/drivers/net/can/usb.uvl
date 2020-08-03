@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			CAN_EMS_USB

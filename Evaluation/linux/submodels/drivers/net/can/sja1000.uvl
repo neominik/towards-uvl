@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			CAN_SJA1000	
+				optional
+					CAN_EMS_PCI
+					CAN_SJA1000_PLATFORM
+					CAN_SJA1000_ISA
+					CAN_SJA1000_OF_PLATFORM
+					CAN_KVASER_PCI

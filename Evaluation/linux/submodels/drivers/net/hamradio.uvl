@@ -1,0 +1,18 @@
+namespace root
+
+features
+	root	
+		optional
+			BAYCOM_SER_FDX
+			SCC	
+				optional
+					SCC_DELAY
+					SCC_TRXECHO
+			BAYCOM_PAR
+			BAYCOM_SER_HDX
+			YAM
+			MKISS
+			BPQETHER
+			BAYCOM_EPP
+			E6PACK
+			DMASCC

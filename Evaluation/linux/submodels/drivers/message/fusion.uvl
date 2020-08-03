@@ -1,0 +1,19 @@
+namespace root
+
+features
+	root	
+		optional
+			FUSION	
+				mandatory
+					FUSION_MAX_SGE
+
+				optional
+					FUSION_FC
+					FUSION_CTL
+					FUSION_SAS
+					FUSION_SPI
+					FUSION_LAN
+					FUSION_LOGGING
+
+constraints
+	FUSION & (FUSION_SPI | FUSION_FC | FUSION_SAS) | !FUSION_CTL

@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			CACHEFILES	
+				optional
+					CACHEFILES_HISTOGRAM
+					CACHEFILES_DEBUG

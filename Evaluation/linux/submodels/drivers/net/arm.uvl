@@ -1,0 +1,14 @@
+namespace root
+
+features
+	root	
+		optional
+			ARM_ETHER3
+			ARM_KS8695_ETHER
+			ARM_AT91_ETHER
+			ARM_ETHER1
+			ARM_AM79C961A
+			W90P910_ETH
+			ARM_ETHERH
+			EP93XX_ETH
+			IXP4XX_ETH

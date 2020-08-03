@@ -1,0 +1,9 @@
+namespace N_117144788__F_4545BA5091E9
+
+features
+	N_117144788__F_4545BA5091E9	
+		mandatory
+			F_9D95C8381411
+
+		optional
+			F_2EC5E4E44F04

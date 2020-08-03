@@ -1,0 +1,19 @@
+namespace root
+
+features
+	root	
+		optional
+			IWLWIFI	
+				optional
+					IWLWIFI_DEVICE_TRACING
+					IWLWIFI_DEBUG	
+						optional
+							IWLWIFI_DEBUGFS
+					IWL3945	
+						optional
+							IWL3945_SPECTRUM_MEASUREMENT
+					IWLAGN	
+						optional
+							IWL5000
+							IWL4965
+					IWLWIFI_SPECTRUM_MEASUREMENT

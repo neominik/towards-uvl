@@ -1,0 +1,19 @@
+namespace root
+
+features
+	root	
+		optional
+			B43	
+				optional
+					B43_SDIO
+					B43_DEBUG	
+						optional
+							B43_FORCE_PIO
+					B43_PIO
+					B43_PCI_AUTOSELECT
+					B43_LEDS
+					B43_PHY_LP
+					B43_HWRNG
+					B43_NPHY
+					B43_PCMCIA
+					B43_PCICORE_AUTOSELECT

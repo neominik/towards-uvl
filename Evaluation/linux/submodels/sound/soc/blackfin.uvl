@@ -1,0 +1,30 @@
+namespace root
+
+features
+	root	
+		mandatory
+			SND_BF5XX_SPORT_NUM
+
+		optional
+			SND_BF5XX_AC97	
+				optional
+					SND_BF5XX_MMAP_SUPPORT
+					SND_BF5XX_MULTICHAN_SUPPORT
+					SND_BF5XX_SOC_AD1980
+					SND_BF5XX_HAVE_COLD_RESET	
+						mandatory
+							SND_BF5XX_RESET_GPIO_NUM
+			SND_BF5XX_SOC_I2S
+			SND_BF5XX_SOC_TDM
+			SND_BF5XX_SOC_AC97
+			SND_BF5XX_SOC_SPORT
+			SND_BF5XX_I2S	
+				optional
+					SND_BF5XX_SOC_AD73311	
+						mandatory
+							SND_BFIN_AD73311_SE
+					SND_BF5XX_SOC_SSM2602
+			SND_BF5XX_TDM	
+				optional
+					SND_BF5XX_SOC_AD1938
+					SND_BF5XX_SOC_AD1836

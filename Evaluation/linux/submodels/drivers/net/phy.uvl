@@ -1,0 +1,26 @@
+namespace root
+
+features
+	root	
+		optional
+			PHYLIB	
+				optional
+					BCM63XX_PHY
+					CICADA_PHY
+					ICPLUS_PHY
+					NATIONAL_PHY
+					LXT_PHY
+					BROADCOM_PHY
+					STE10XP
+					MDIO_OCTEON
+					VITESSE_PHY
+					DAVICOM_PHY
+					QSEMI_PHY
+					SMSC_PHY
+					MDIO_BITBANG	
+						optional
+							MDIO_GPIO
+					REALTEK_PHY
+					FIXED_PHY
+					LSI_ET1011C_PHY
+					MARVELL_PHY

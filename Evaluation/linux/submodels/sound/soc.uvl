@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_SOC	
+				optional
+					SND_SOC_AC97_BUS

@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			MMC	
+				optional
+					MMC_DEBUG

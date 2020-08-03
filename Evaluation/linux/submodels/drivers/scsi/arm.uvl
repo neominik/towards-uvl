@@ -1,0 +1,15 @@
+namespace root
+
+features
+	root	
+		optional
+			SCSI_CUMANA_2
+			SCSI_OAK1
+			SCSI_CUMANA_1
+			SCSI_POWERTECSCSI
+			SCSI_EESOXSCSI
+			SCSI_ACORNSCSI_3	
+				optional
+					SCSI_ACORNSCSI_TAGGED_QUEUE
+					SCSI_ACORNSCSI_SYNC
+			SCSI_ARXESCSI

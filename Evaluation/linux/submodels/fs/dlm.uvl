@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			DLM	
+				optional
+					DLM_DEBUG

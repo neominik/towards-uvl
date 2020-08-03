@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			CS5535_CLOCK_EVENT_SRC

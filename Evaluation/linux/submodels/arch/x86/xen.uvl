@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			XEN	
+				mandatory
+					XEN_MAX_DOMAIN_MEMORY
+
+				optional
+					XEN_SAVE_RESTORE
+					XEN_DEBUG_FS

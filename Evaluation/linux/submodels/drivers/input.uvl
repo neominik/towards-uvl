@@ -1,0 +1,22 @@
+namespace root
+
+features
+	root	
+		optional
+			INPUT	
+				optional
+					INPUT_JOYDEV
+					INPUT_FF_MEMLESS
+					INPUT_MOUSEDEV	
+						mandatory
+							INPUT_MOUSEDEV_SCREEN_X
+							INPUT_MOUSEDEV_SCREEN_Y
+
+						optional
+							INPUT_MOUSEDEV_PSAUX
+					XEN_KBDDEV_FRONTEND
+					INPUT_EVDEV
+					INPUT_POLLDEV
+					INPUT_SPARSEKMAP
+					INPUT_EVBUG
+					INPUT_APMPOWER

@@ -1,0 +1,26 @@
+namespace root
+
+features
+	root	
+		optional
+			SERIO	
+				optional
+					SERIO_CT82C710
+					SERIO_LIBPS2
+					SERIO_GSCPS2
+					SERIO_I8042
+					SERIO_XILINX_XPS_PS2
+					SERIO_ALTERA_PS2
+					SERIO_SERPORT
+					SERIO_AMBAKMI
+					SERIO_RAW
+					HP_SDC	
+						optional
+							HIL_MLC
+					SERIO_SA1111
+					SERIO_PARKBD
+					SERIO_RPCKBD
+					SERIO_AT32PSIF
+					SERIO_PCIPS2
+					SERIO_MACEPS2
+					SERIO_Q40KBD

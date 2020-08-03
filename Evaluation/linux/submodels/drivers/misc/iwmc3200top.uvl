@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			IWMC3200TOP	
+				optional
+					IWMC3200TOP_DEBUGFS
+					IWMC3200TOP_DEBUG

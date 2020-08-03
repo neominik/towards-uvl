@@ -1,0 +1,33 @@
+namespace root
+
+features
+	root	
+		optional
+			USB_CATC
+			USB_KAWETH
+			USB_NET_INT51X1
+			USB_CDC_PHONET
+			USB_RTL8150
+			USB_PEGASUS
+			USB_USBNET	
+				optional
+					USB_NET_CDC_EEM
+					USB_NET_DM9601
+					USB_NET_NET1080
+					USB_NET_GL620A
+					USB_NET_ZAURUS
+					USB_NET_RNDIS_HOST
+					USB_NET_MCS7830
+					USB_NET_AX8817X
+					USB_NET_CDC_SUBSET	
+						optional
+							USB_KC2190
+							USB_ARMLINUX
+							USB_BELKIN
+							USB_ALI_M5632
+							USB_AN2720
+							USB_EPSON2888
+					USB_NET_SMSC95XX
+					USB_NET_CDCETHER
+					USB_NET_PLUSB
+			USB_HSO

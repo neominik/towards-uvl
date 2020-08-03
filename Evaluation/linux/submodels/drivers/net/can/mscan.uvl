@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			CAN_MSCAN	
+				optional
+					CAN_MPC5XXX

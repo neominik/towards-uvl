@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			IIO	
+				optional
+					IIO_RING_BUFFER	
+						optional
+							IIO_SW_RING
+					IIO_TRIGGER

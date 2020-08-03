@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			VFAT_FS	
+				mandatory
+					FAT_DEFAULT_IOCHARSET
+					FAT_DEFAULT_CODEPAGE
+			FAT_FS
+			MSDOS_FS

@@ -1,0 +1,22 @@
+namespace root
+
+features
+	root	
+		mandatory
+			DEFAULT_SECURITY
+			LSM_MMAP_MIN_ADDR
+
+		optional
+			SECURITY_PATH
+			SECURITYFS
+			SECURITY
+			INTEL_TXT
+			SECURITY_NETWORK	
+				optional
+					SECURITY_NETWORK_XFRM
+			KEYS	
+				optional
+					KEYS_DEBUG_PROC_KEYS
+
+constraints
+	SECURITY | !SECURITY_NETWORK

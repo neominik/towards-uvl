@@ -1,0 +1,58 @@
+namespace root
+
+features
+	root	
+		optional
+			BLK_DEV	
+				optional
+					BLK_DEV_HD
+					MAC_FLOPPY
+					ATARI_FLOPPY
+					BLK_CPQ_CISS_DA	
+						optional
+							CISS_SCSI_TAPE
+					BLK_DEV_RAM	
+						mandatory
+							BLK_DEV_RAM_SIZE
+							BLK_DEV_RAM_COUNT
+
+						optional
+							BLK_DEV_XIP
+					BLK_DEV_SX8
+					GDROM
+					BLK_DEV_NBD
+					BLK_DEV_OSD
+					BLK_DEV_UB
+					XILINX_SYSACE
+					BLK_CPQ_DA
+					VIRTIO_BLK
+					AMIGA_FLOPPY
+					PARIDE
+					BLK_DEV_COW_COMMON
+					ATA_OVER_ETH
+					BLK_DEV_UMEM
+					BLK_DEV_SWIM
+					BLK_DEV_UBD	
+						optional
+							BLK_DEV_UBD_SYNC
+					BLK_DEV_FD
+					BLK_DEV_DAC960
+					SUNVDC
+					XEN_BLKDEV_FRONTEND
+					BLK_DEV_XD
+					BLK_DEV_LOOP	
+						optional
+							BLK_DEV_CRYPTOLOOP
+					CDROM_PKTCDVD	
+						mandatory
+							CDROM_PKTCDVD_BUFFERS
+
+						optional
+							CDROM_PKTCDVD_WCACHE
+					MG_DISK	
+						mandatory
+							MG_DISK_RES
+					AMIGA_Z2RAM
+
+constraints
+	(!BLK_DEV | !BLK_DEV_UBD | BLK_DEV_COW_COMMON) & (!BLK_DEV_COW_COMMON | BLK_DEV & BLK_DEV_UBD)

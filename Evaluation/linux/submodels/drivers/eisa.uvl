@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			EISA_VLB_PRIMING
+			EISA_PCI_EISA
+			EISA_NAMES
+			EISA_VIRTUAL_ROOT

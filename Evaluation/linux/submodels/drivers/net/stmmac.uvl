@@ -1,0 +1,13 @@
+namespace root
+
+features
+	root	
+		optional
+			STMMAC_ETH	
+				optional
+					STMMAC_DUAL_MAC
+					STMMAC_TIMER	
+						alternative
+							STMMAC_TMU_TIMER
+							STMMAC_RTC_TIMER
+					STMMAC_DA

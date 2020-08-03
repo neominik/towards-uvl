@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			SCSI_MPT2SAS	
+				mandatory
+					SCSI_MPT2SAS_MAX_SGE
+
+				optional
+					SCSI_MPT2SAS_LOGGING

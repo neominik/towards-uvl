@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			BLK_DEV_DRBD	
+				optional
+					DRBD_FAULT_INJECTION

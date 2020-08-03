@@ -1,0 +1,17 @@
+namespace root
+
+features
+	root	
+		optional
+			QFMT_V1
+			QUOTA
+			QUOTACTL
+			QFMT_V2
+			PRINT_QUOTA_WARNING
+			QUOTA_NETLINK_INTERFACE
+			QUOTA_TREE
+
+constraints
+	QUOTA | (!QUOTA | PRINT_QUOTA_WARNING) & (!PRINT_QUOTA_WARNING | QUOTA)
+	QUOTA | !QFMT_V1
+	QUOTA | !QFMT_V2

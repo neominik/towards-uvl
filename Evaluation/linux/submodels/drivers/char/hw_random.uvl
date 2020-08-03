@@ -1,0 +1,20 @@
+namespace root
+
+features
+	root	
+		optional
+			HW_RANDOM	
+				optional
+					HW_RANDOM_VIA
+					HW_RANDOM_OCTEON
+					HW_RANDOM_OMAP
+					HW_RANDOM_VIRTIO
+					HW_RANDOM_AMD
+					HW_RANDOM_TX4939
+					HW_RANDOM_INTEL
+					HW_RANDOM_IXP4XX
+					HW_RANDOM_PASEMI
+					HW_RANDOM_TIMERIOMEM
+					HW_RANDOM_MXC_RNGA
+					HW_RANDOM_N2RNG
+					HW_RANDOM_GEODE

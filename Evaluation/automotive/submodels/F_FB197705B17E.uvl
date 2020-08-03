@@ -1,0 +1,28 @@
+namespace F_FB197705B17E
+
+features
+	F_FB197705B17E	
+		mandatory
+			F_29F74BBAB54A	
+				mandatory
+					F_4E965EAFCD0F
+			F_527041918AE0
+			F_8F588DE4FFF3	
+				alternative
+					F_9AFF67CD7787
+					F_27CC73CD2A05
+			F_2AD73622C699
+			F_936990E592A7
+			F_5EE2077C90B7	
+				mandatory
+					F_BDE0416F7D5F
+			F_03103A1B722B	
+				mandatory
+					F_DEE69AF2CC21
+
+		optional
+			F_E47C0CD43764
+			F_398029426BBF
+
+constraints
+	F_E47C0CD43764 => F_398029426BBF

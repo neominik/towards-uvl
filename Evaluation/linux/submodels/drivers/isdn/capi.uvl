@@ -1,0 +1,14 @@
+namespace root
+
+features
+	root	
+		optional
+			CAPI_TRACE
+			ISDN_CAPI_CAPI20	
+				optional
+					ISDN_CAPI_CAPIFS_BOOL	
+						optional
+							ISDN_CAPI_CAPIFS
+			ISDN_CAPI_CAPIDRV
+			ISDN_DRV_AVMB1_VERBOSE_REASON
+			ISDN_CAPI_MIDDLEWARE

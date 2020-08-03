@@ -1,0 +1,13 @@
+namespace root
+
+features
+	root	
+		optional
+			EXT4_FS	
+				optional
+					EXT4_DEBUG
+					EXT4_FS_XATTR	
+						optional
+							EXT4_FS_SECURITY
+							EXT4_FS_POSIX_ACL
+					EXT4_USE_FOR_EXT23

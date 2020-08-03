@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			USB_TMC
+			USB_WDM
+			USB_PRINTER
+			USB_ACM

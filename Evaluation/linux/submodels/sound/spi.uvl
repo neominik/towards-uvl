@@ -1,0 +1,10 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_SPI	
+				optional
+					SND_AT73C213	
+						mandatory
+							SND_AT73C213_TARGET_BITRATE

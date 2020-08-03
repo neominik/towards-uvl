@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			PROC_FS	
+				optional
+					PROC_KCORE
+					PROC_VMCORE
+					PROC_SYSCTL
+					PROC_PAGE_MONITOR

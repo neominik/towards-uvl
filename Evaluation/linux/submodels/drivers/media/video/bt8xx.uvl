@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			VIDEO_BT848	
+				optional
+					VIDEO_BT848_DVB

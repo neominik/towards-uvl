@@ -1,0 +1,18 @@
+namespace root
+
+features
+	root	
+		optional
+			IEEE1394	
+				optional
+					IEEE1394_VIDEO1394
+					IEEE1394_RAWIO
+					IEEE1394_ETH1394_ROM_ENTRY
+					IEEE1394_SBP2	
+						optional
+							IEEE1394_SBP2_PHYS_DMA
+					IEEE1394_ETH1394
+					IEEE1394_VERBOSEDEBUG
+					IEEE1394_PCILYNX
+					IEEE1394_DV1394
+					IEEE1394_OHCI1394

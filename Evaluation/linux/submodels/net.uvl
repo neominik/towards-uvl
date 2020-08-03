@@ -1,0 +1,25 @@
+namespace root
+
+features
+	root	
+		optional
+			NET	
+				optional
+					FIB_RULES
+					WIRELESS
+					COMPAT_NETLINK_MESSAGES
+					WANT_COMPAT_NETLINK_MESSAGES
+					NETWORK_SECMARK
+					NET_PKTGEN
+					INET
+					NETFILTER	
+						optional
+							NETFILTER_ADVANCED	
+								optional
+									BRIDGE_NETFILTER
+							NETFILTER_DEBUG
+					NET_DROP_MONITOR
+					NET_TCPPROBE
+
+constraints
+	!WANT_COMPAT_NETLINK_MESSAGES

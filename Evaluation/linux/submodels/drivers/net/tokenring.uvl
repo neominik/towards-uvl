@@ -1,0 +1,19 @@
+namespace root
+
+features
+	root	
+		optional
+			TR	
+				optional
+					IBMOL
+					IBMTR
+					SMCTR
+					E3C359
+					IBMLS
+					TMS380TR	
+						optional
+							SKISA
+							ABYSS
+							TMSPCI
+							PROTEON
+							MADGEMC

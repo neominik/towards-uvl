@@ -1,0 +1,16 @@
+namespace root
+
+features
+	root	
+		optional
+			AUXDISPLAY	
+				optional
+					KS0108	
+						mandatory
+							KS0108_DELAY
+
+						optional
+							CFAG12864B	
+								mandatory
+									CFAG12864B_RATE
+							KS0108_PORT

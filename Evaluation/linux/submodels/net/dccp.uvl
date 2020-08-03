@@ -1,0 +1,10 @@
+namespace root
+
+features
+	root	
+		optional
+			IP_DCCP	
+				optional
+					IP_DCCP_DEBUG
+					NET_DCCPPROBE
+					INET_DCCP_DIAG

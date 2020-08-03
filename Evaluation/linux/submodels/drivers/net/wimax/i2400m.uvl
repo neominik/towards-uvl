@@ -1,0 +1,13 @@
+namespace root
+
+features
+	root	
+		mandatory
+			WIMAX_I2400M_DEBUG_LEVEL
+
+		optional
+			WIMAX_I2400M
+			WIMAX_I2400M_SDIO	
+				optional
+					WIMAX_IWMC3200_SDIO
+			WIMAX_I2400M_USB

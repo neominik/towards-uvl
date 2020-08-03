@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			NTFS_FS	
+				optional
+					NTFS_RW
+					NTFS_DEBUG

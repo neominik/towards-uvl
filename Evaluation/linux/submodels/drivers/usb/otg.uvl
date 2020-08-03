@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			USB_ULPI
+			NOP_USB_XCEIV
+			TWL4030_USB
+			USB_GPIO_VBUS
+			ISP1301_OMAP
+			USB_OTG_UTILS

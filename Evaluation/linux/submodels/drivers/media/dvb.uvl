@@ -1,0 +1,10 @@
+namespace root
+
+features
+	root	
+		mandatory
+			DVB_MAX_ADAPTERS
+
+		optional
+			DVB_CAPTURE_DRIVERS
+			DVB_DYNAMIC_MINORS

@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			USB_VIDEO_CLASS	
+				optional
+					USB_VIDEO_CLASS_INPUT_EVDEV

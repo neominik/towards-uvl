@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			NO_HZ
+			TICK_ONESHOT
+			HIGH_RES_TIMERS
+			GENERIC_CLOCKEVENTS_BUILD

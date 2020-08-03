@@ -1,0 +1,15 @@
+namespace root
+
+features
+	root	
+		optional
+			AC97_BUS
+			SOUND	
+				optional
+					SOUND_PRIME
+					SOUND_OSS_CORE
+					SOUND_OSS_CORE_PRECLAIM
+					SND
+
+constraints
+	SOUND & SOUND_OSS_CORE | (!SOUND | !SOUND_OSS_CORE | SOUND_OSS_CORE_PRECLAIM) & (!SOUND_OSS_CORE_PRECLAIM | SOUND & SOUND_OSS_CORE)

@@ -1,0 +1,10 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_MIPS	
+				optional
+					SND_AU1X00
+					SND_SGI_HAL2
+					SND_SGI_O2

@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			EXT3_FS	
+				optional
+					EXT3_FS_XATTR	
+						optional
+							EXT3_FS_SECURITY
+							EXT3_FS_POSIX_ACL
+					EXT3_DEFAULTS_TO_ORDERED

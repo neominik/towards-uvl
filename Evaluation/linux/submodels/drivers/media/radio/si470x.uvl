@@ -1,0 +1,7 @@
+namespace root
+
+features
+	root	
+		optional
+			USB_SI470X
+			I2C_SI470X

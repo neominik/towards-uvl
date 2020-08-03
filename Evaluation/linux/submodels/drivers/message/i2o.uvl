@@ -1,0 +1,18 @@
+namespace root
+
+features
+	root	
+		optional
+			I2O	
+				optional
+					I2O_CONFIG	
+						optional
+							I2O_CONFIG_OLD_IOCTL
+					I2O_LCT_NOTIFY_ON_CHANGES
+					I2O_PROC
+					I2O_EXT_ADAPTEC	
+						optional
+							I2O_EXT_ADAPTEC_DMA64
+					I2O_SCSI
+					I2O_BLOCK
+					I2O_BUS

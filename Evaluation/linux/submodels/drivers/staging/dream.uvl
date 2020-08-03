@@ -1,0 +1,7 @@
+namespace root
+
+features
+	root	
+		optional
+			INPUT_GPIO
+			DREAM

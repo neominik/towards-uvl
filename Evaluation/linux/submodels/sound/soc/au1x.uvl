@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_SOC_SAMPLE_PSC_AC97
+			SND_SOC_AU1XPSC_I2S
+			SND_SOC_AU1XPSC
+			SND_SOC_AU1XPSC_AC97
+
+constraints
+	!SND_SOC_AU1XPSC_I2S

@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			ISDN	
+				optional
+					ISDN_I4L
+					ISDN_CAPI

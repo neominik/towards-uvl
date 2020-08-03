@@ -1,0 +1,16 @@
+namespace root
+
+features
+	root	
+		optional
+			UWB	
+				optional
+					UWB_WHCI
+					UWB_HWA
+					UWB_WLP
+					UWB_I1480U	
+						optional
+							UWB_I1480U_WLP
+
+constraints
+	UWB & UWB_HWA | !UWB_I1480U

@@ -1,0 +1,15 @@
+namespace root
+
+features
+	root	
+		optional
+			HERMES	
+				optional
+					PCI_HERMES
+					APPLE_AIRPORT
+					PCMCIA_HERMES
+					PCMCIA_SPECTRUM
+					NORTEL_HERMES
+					PLX_HERMES
+					HERMES_CACHE_FW_ON_INIT
+					TMD_HERMES

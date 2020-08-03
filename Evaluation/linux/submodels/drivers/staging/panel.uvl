@@ -1,0 +1,31 @@
+namespace root
+
+features
+	root	
+		optional
+			PANEL	
+				mandatory
+					PANEL_PARPORT
+					PANEL_PROFILE	
+						mandatory
+							PANEL_LCD	
+								mandatory
+									PANEL_LCD_PIN_BL
+									PANEL_LCD_CHARSET
+									PANEL_LCD_HEIGHT
+									PANEL_LCD_PROTO	
+										mandatory
+											PANEL_LCD_PIN_RS
+											PANEL_LCD_PIN_RW
+											PANEL_LCD_PIN_SDA
+											PANEL_LCD_PIN_SCL
+											PANEL_LCD_PIN_E
+									PANEL_LCD_BWIDTH
+									PANEL_LCD_WIDTH
+									PANEL_LCD_HWIDTH
+							PANEL_KEYPAD
+
+				optional
+					PANEL_CHANGE_MESSAGE	
+						mandatory
+							PANEL_BOOT_MESSAGE

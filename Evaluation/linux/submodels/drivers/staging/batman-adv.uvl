@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			BATMAN_ADV	
+				optional
+					BATMAN_DEBUG

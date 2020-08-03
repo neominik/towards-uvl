@@ -1,0 +1,18 @@
+namespace root
+
+features
+	root	
+		optional
+			ARCNET	
+				optional
+					ARCNET_CAP
+					ARCNET_RAW
+					ARCNET_1051
+					ARCNET_COM90xx
+					ARCNET_COM20020	
+						optional
+							ARCNET_COM20020_ISA
+							ARCNET_COM20020_PCI
+					ARCNET_1201
+					ARCNET_RIM_I
+					ARCNET_COM90xxIO

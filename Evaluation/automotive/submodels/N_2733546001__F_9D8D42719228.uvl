@@ -1,0 +1,652 @@
+namespace N_2733546001__F_9D8D42719228
+
+features
+	N_2733546001__F_9D8D42719228	
+		mandatory
+			F_D3DB32A8EA91	
+				alternative
+					F_413AF69AAC55
+					F_B37CDA55BC53	
+						mandatory
+							F_BA6AADA09526	
+								alternative
+									F_25E6CDCECB3D
+									F_3431278969A0	
+										optional
+											F_35297E0EBFF6
+											F_D519ADF06E81	
+												optional
+													F_EEC3C1F17AF0
+
+						optional
+							F_9430B12CD35F
+							F_7583595C7A47	
+								optional
+									F_2567C2BB6C1F
+							F_BD70D5B9FF68	
+								optional
+									F_C719B927E7F6	
+										optional
+											F_165A22CC9A2E
+							F_CED8B94985E3	
+								optional
+									F_7AA21F58181C
+							F_9C1EA50D1FED	
+								optional
+									F_BB6313B31088
+							F_6738C75E8134	
+								optional
+									F_7D5CCEFC1D1C
+							F_0B5B64C7427E	
+								optional
+									F_3A68237C7103
+									F_E27A33C820EF	
+										or
+											F_9E903018A32E
+											F_0D875D28D076
+											F_23EE0A24C21A
+											F_C19C20E73A84
+											F_2489686719A7
+											F_5D20BC47E743
+											F_FF07E68C3CC3
+											F_647940340882
+											F_6389A95B3C95
+											F_601C0B2CFC08
+							F_9F9D288496E0	
+								optional
+									F_F2983AAF88AA
+							F_EFDC9B3E6607
+							F_8DADA6063D72	
+								optional
+									F_D09133D9FBCE
+							F_E0AD228D0940	
+								optional
+									F_E27528B21C7D
+							F_8C8340CCD72A	
+								or
+									F_B957D8524CF6
+									F_C81A340D6D50
+							F_8C5668B4FA26
+							F_D526323E405D
+							F_DE6D85E0DCE0	
+								optional
+									F_43705EA90AEA
+							F_B0738C456CAD
+			F_DDD0E3F5304B	
+				alternative
+					F_A37FE828B667
+					F_BBEBA0B11542	
+						mandatory
+							F_3E61D7F7EE03	
+								alternative
+									F_447E5A36D94F
+									F_53C70BC61D47	
+										optional
+											F_A1D162E0FCF9
+											F_651B48767404
+							F_1F04E04E7A52	
+								alternative
+									F_354738B5050F
+									F_97E04FF1724E	
+										mandatory
+											F_925454E8393E	
+												or
+													F_B0653AA8ED01
+													F_808085F844A2
+													F_906EBC348733
+													F_00BA559B7394
+													F_94B12B037504
+													F_D8019BD3773B
+													F_53F233E9C9F2
+													F_060DFFF3B18E
+													F_649FEBD0479D
+													F_3F96A29AC707
+											F_1D3E881D325D	
+												or
+													F_8207EB533D86
+													F_8B812B84AEF5
+													F_E5933D9E08B5
+													F_0D907176C63A
+													F_F91414D8EC9D
+													F_AE0D57CEDC15
+													F_CF014CE9878F
+													F_144079C294E2
+													F_45C109085594
+													F_17422EFEB3BF
+											F_495425AD0F05
+							F_31090E25AF15	
+								alternative
+									F_82BA1248FAD6
+									F_45F1FC08BA81	
+										optional
+											F_D8331ACD2114
+											F_847425E031D4
+											F_60E438EF127C
+							F_068DE58B86DA	
+								alternative
+									F_D6DCE208BABA
+									F_60F5D91741D4	
+										mandatory
+											F_1F1D3DF9A584	
+												alternative
+													F_856EA5DF32C1
+													F_5DA85E1C3028
+
+										optional
+											F_82CE104B0ACC
+											F_70B49C1BB3C4
+							F_80FA2481463E	
+								alternative
+									F_062D2985CCE8
+									F_FA296C8CFA1E
+							F_8B9C35990302	
+								alternative
+									F_F62946A5DFC7
+									F_40A829148170
+							F_97ED4E42958E	
+								alternative
+									F_8C20704DFE80
+									F_357BDB1A6906	
+										mandatory
+											F_A8121961A7EF	
+												or
+													F_3787B7213205
+													F_27D82BCA436E
+													F_F0875AE17BEC
+													F_354ED1961EDA
+													F_A6273D9180AB
+													F_F009F047846E
+							F_90B697FCB82D	
+								alternative
+									F_A802DE3319FC
+									F_6034232DFF72	
+										mandatory
+											F_3E48586141DB	
+												or
+													F_3F2CF6642E28	
+														optional
+															F_9784FF7CD92B	
+																alternative
+																	F_975807CC3902
+																	F_4AA74B2825D3
+															F_12D384D9D875
+													F_B3F568CC5872
+
+										optional
+											F_1C93454DFF35
+											F_F86F666C9213
+							F_1467195E1C63	
+								alternative
+									F_E44310094D4C
+									F_1E89B0D1799F
+									F_128A78CFA4EB
+							F_F245DD4BC679	
+								alternative
+									F_5558318BBB27
+									F_C6F64B0A4270
+							F_73A87FA66B57	
+								alternative
+									F_119253EA94FD
+									F_089A54A017FE	
+										mandatory
+											F_D542C6B0E804	
+												or
+													F_DCD1DF24CE1C
+													F_EB24BA48997F
+													F_31FC9867E78C
+													F_F3A38FE9EBE4
+													F_49F00E6E91DD
+											F_A9ECA4B3857A
+											F_8B427DBE2CEF	
+												alternative
+													F_5FE0031543FE
+													F_168D65B27919
+											F_2AB19DE0D2F9	
+												alternative
+													F_363EB9961A49
+													F_F935CAABA327
+											F_40B588504324	
+												alternative
+													F_8A6712D5E5CF
+													F_C974BEC281FD
+											F_C4A260B7256A	
+												alternative
+													F_C33AFCB719F0
+													F_8B0A2B4444F2
+											F_37760DD136D7	
+												alternative
+													F_70202A156714
+													F_D9032C58AE0E
+											F_57584443E625	
+												alternative
+													F_D5848140CC71
+													F_A6262AF61BF0
+											F_BA5EAD81D108	
+												alternative
+													F_8C5A86305306
+													F_61FA112EA9C6
+											F_7D0DCE7DA7A9	
+												alternative
+													F_919550FACDFE
+													F_2FC69F20758C
+											F_BC40217CD965	
+												alternative
+													F_816AE2E56C87
+													F_B8B2EB5186C8
+											F_5A704823D11E	
+												alternative
+													F_671EF45F98F5
+													F_999B6177AC6E
+											F_8909F56DDAB1	
+												alternative
+													F_EBEEA653597C
+													F_E59D2D794841
+											F_D58B10D7A590	
+												alternative
+													F_E2773A62ED32
+													F_175ECEF4DB8F
+											F_F5028751B551	
+												alternative
+													F_9D69881BC2AF
+													F_25CC884D2E3F
+											F_9B8C71EC1A51	
+												alternative
+													F_DAEB4DE3575A
+													F_6ED808DF2917
+											F_F2912C70C79C	
+												alternative
+													F_DA67193149B1
+													F_2B0A21AC34C5
+											F_3BAF0E5680A1	
+												alternative
+													F_80CC457E68C2
+													F_EE730747E2C5
+											F_D6A001FDFEE9	
+												alternative
+													F_4B2CAD5F8AFE
+													F_64D74037628C
+											F_5C22B3F9C39D	
+												alternative
+													F_76506B56F0BF
+													F_8384D3FBDB75
+
+										optional
+											F_2C9F348AC0B6	
+												mandatory
+													F_99F5BDAE6580	
+														alternative
+															F_5AB4B998801F
+															F_5366211138F5
+							F_08AE428F6361	
+								alternative
+									F_1B4EAD63FF6E
+									F_4CA4D1636FDE	
+										optional
+											F_DB3566ACE11A
+							F_E58B58A2D580	
+								alternative
+									F_7E561AFED8C9
+									F_F695950B1533
+							F_B36B1CB54067	
+								alternative
+									F_ACED4C55637F
+									F_02C27124E8CA	
+										mandatory
+											F_F8AD1E9D6B2A	
+												alternative
+													F_AE94F8FD236E
+													F_A3375CB59CCE
+													F_BFBCBB8D0D85
+													F_446D0F1F45DA
+
+										optional
+											F_83922928C10F
+											F_F341F04E8270
+							F_C02312F060FD	
+								alternative
+									F_F557DD9456E6
+									F_DF72869C979B
+							F_BDBDA3C7BDA6	
+								alternative
+									F_469531F82D6B
+									F_1C41E7FE1433
+							F_19230C964CC8	
+								alternative
+									F_3F1D3007B8D6
+									F_C38660822897
+									F_7CF58ACF1167
+									F_CD5588301DD7
+									F_A11BAA2D33B7
+									F_AB7850D2D637
+									F_34E0A37339FF
+							F_692B73093DD8
+							F_207F08389454	
+								alternative
+									F_BAD5AD87078E
+									F_3601226BB731
+									F_6DC838904F56
+							F_60CF8B3E6B65	
+								alternative
+									F_A0216E14BC97
+									F_0DD32BFE0A92	
+										mandatory
+											F_97DCE806A1CA	
+												alternative
+													F_1FDB3C187DFD
+													F_981EE997431C
+													F_BB1A68D46A1E
+													F_826663D93E33
+
+										optional
+											F_63D0258994E2
+											F_08C6BDCFC9D2
+							F_5090C02E4D09	
+								alternative
+									F_41C1825B657A
+									F_9C07D6E3178A	
+										mandatory
+											F_E06368F1F03E	
+												alternative
+													F_9857C16EDD28
+													F_99F9D65EDB03
+							F_59668F9A4A33	
+								alternative
+									F_AE55B75F8A03
+									F_B4410AFDAF22	
+										optional
+											F_FAF121E40D98	
+												alternative
+													F_C3AA994E80F6
+													F_7777F9445935
+							F_60573B04E500	
+								alternative
+									F_F2B36D30C2B2
+									F_B11B7C43DA3A
+							F_18A9EB94B6A2	
+								alternative
+									F_D5C78A58C528
+									F_149970A1A305
+									F_11D91612710E
+									F_D995F7288818
+									F_5C8F778DC2D6
+							F_13B2BA5C763D
+							F_1E1A2BF77C77	
+								alternative
+									F_1499F287CD3D	
+										alternative
+											F_D926F7B277C6
+											F_775BA0F7EA61	
+												optional
+													F_B7AAD5B0E6D6
+									F_65883ED4C8AF	
+										alternative
+											F_22B4B32D767E
+											F_437B936EC807
+									F_0D74414F3F30
+									F_1134DAD02639
+									F_D1EBC9795082
+									F_9F39AFC9BB34
+									F_33FBB3647480
+
+						optional
+							F_FD206011B3A1
+							F_00B4F5532487	
+								or
+									F_A2C868C8FAF4
+									F_E386D0089983
+									F_B1083C4F8D1E
+									F_1231534A1917
+									F_394F50F38942
+									F_747A0E03DB03
+									F_E4D8553ED030
+									F_66F5DFF460E4
+									F_6F5A248D2A80
+									F_7421AD987FAA
+									F_3582359B26CE
+									F_2DBA78FB4A36
+									F_7CF7371BA76E
+									F_27BE24641D28
+									F_89E2B326AE19
+									F_3C71B32C9448
+									F_B4E6A453179C
+									F_629D5A068C82
+									F_E78ED4C04ECB
+									F_31B4388017C1
+									F_6CD5CF59209A
+									F_27582787FFED
+									F_0C736BF1542F
+									F_67B9814AC279
+									F_28DB78E25A5A
+									F_4A721119AB54
+									F_F3E38760E9CF
+									F_89D09CBC27E9
+									F_1AAA884C7949
+									F_AEC8AFABA08D
+									F_587160906EF6
+							F_0300B0315E8F
+							F_0E7E1AB114FC	
+								or
+									F_D8CC0E8A0992
+									F_C0E3CC7762E9
+									F_83ED2CFE7E9D
+							F_000876A704B7	
+								or
+									F_8B8322BC200E
+									F_6B5D96189428
+									F_E3139CC2E0FA
+									F_E6B7F2644700
+									F_F5CC224041A9
+									F_AB48E0834BDA
+							F_053B2AA502D2
+							F_432AB2FFF2A0
+							F_21AC50209874
+							F_0025089234EC	
+								or
+									F_7E5E0FD5074D
+									F_B4DFEC48DA99
+									F_F24E2786F1DC
+									F_9D2039D4613C
+									F_F45043F03189
+									F_AB7524B77FE3
+									F_553FD27EFDFF
+							F_E79D3C8F6D6D	
+								alternative
+									F_3F1D3007B8D3
+									F_C38660822893
+									F_7CF58ACF1163
+									F_CD5588301DD3
+									F_A11BAA2D33B3
+									F_AB7850D2D633
+							F_2D3D24AF9B9A	
+								or
+									F_D3CEC1A73F33
+									F_F2FAE7F66E5A
+									F_4B33A7C22107
+									F_8E90C1C23E39
+									F_9B53263EC377
+									F_D8397852CC89
+							F_246070BDB55B
+							F_9665DE80BCD8	
+								alternative
+									F_A178DEC07A45
+									F_6E2364DFD9EA
+							F_A15791A71CB6
+							F_DCB6CAD90F24
+							F_3906DD8EC466
+							F_652DA7531892
+							F_C8226A8F5D9B
+							F_EA7ABA76E878
+							F_19BFAA67693D
+							F_023DAFF2F4EB
+							F_BBDAC4D1D6EE
+							F_B41B97E4FA2E
+							F_B5C82770293D
+							F_148F4F416E0E
+							F_B0C2230D78E9
+							F_30866FB8C4B9
+							F_30767F05C524
+							F_4506FCC3C59B
+							F_1A0606800D01
+							F_DA7041B2C931
+							F_6FA7A43ECE6B
+							F_D3F8F4C3EE9C
+							F_ACF9647BDA78
+							F_93D733C321DC
+							F_CC42E600FB02
+							F_72C77187CF6A
+							F_5E13B7819A53
+							F_4CD7E6047463
+							F_F961EB75F44C
+							F_B43591361D83
+							F_ECD18ADC5B69
+							F_6D5847DCD87F
+							F_6F9899A247DB
+							F_24DE936D1F47
+							F_06299F94E656
+							F_D5EFF7152745
+							F_675D75925D8C
+							F_97970B630BC3	
+								alternative
+									F_91CE51F3E1CB
+									F_AD85940D1FAF
+									F_1E37DEE1895C
+							F_1BC32A953B0A	
+								or
+									F_BE919B5910A2
+									F_400797ADE6B5
+							F_083BC6976FB1	
+								or
+									F_F7D214BF477C
+									F_6030DC9F0A95
+									F_AEEF0E9A3066
+									F_6E07E079276A
+									F_1A33A98E7641
+									F_797E4E1BDE7D
+									F_FC9F13CEF774
+									F_6677C2600BA4
+									F_655EA987CE01
+									F_A723D688B66F
+									F_1C380A51CEBC
+									F_F7D214BF4773
+									F_6030DC9F0A93
+									F_AEEF0E9A3063
+									F_6E07E0792763
+									F_1A33A98E7643
+									F_797E4E1BDE73
+									F_FC9F13CEF773
+									F_6677C2600BA3
+									F_655EA987CE03
+									F_A723D688B663
+									F_1C380A51CEB3
+									F_B6F1A0A25DFD
+							F_E63451CAA51A	
+								alternative
+									F_8BFA69A89348
+									F_C41024724799
+									F_4DCE0FF157FB
+									F_5432A5E72E7D
+							F_AE1CFC3556EF	
+								or
+									F_DFEA32D20D3F
+									F_CB5D461FFD36
+							F_4C84CCD8726F	
+								alternative
+									F_ACFDAFC89D4F
+									F_390731041842
+							F_122BA5B3AE81	
+								or
+									F_06E6AAD73762
+									F_919AC0C6367E
+									F_F34488B66FAE
+									F_740EB2FA21E1
+							F_777E60DD01A4
+			F_B2F62E9B7C9B	
+				alternative
+					F_728779B5D471
+					F_5303719A7626
+
+		optional
+			F_36D5CD424069	
+				optional
+					F_7BD341A32374
+			F_DFEA67530CDB	
+				optional
+					F_4497A940C69B
+					F_91708477EA52
+
+constraints
+	F_B37CDA55BC53 <=> F_9430B12CD35F
+	F_36D5CD424069 <=> F_7BD341A32374
+	F_DFEA67530CDB => F_4497A940C69B
+	F_DFEA67530CDB => F_91708477EA52
+	F_0B5B64C7427E <=> F_9E903018A32E
+	F_B957D8524CF6 <=> F_8C5668B4FA26
+	F_C81A340D6D50 <=> F_D526323E405D
+	F_60E438EF127C <=> F_0300B0315E8F
+	F_053B2AA502D2 <=> F_DB3566ACE11A
+	F_70B49C1BB3C4 <=> F_432AB2FFF2A0
+	F_82CE104B0ACC <=> F_21AC50209874
+	F_19230C964CC8 <=> F_E79D3C8F6D6D
+	F_7583595C7A47 <=> F_2567C2BB6C1F
+	F_CED8B94985E3 <=> F_7AA21F58181C
+	F_9C1EA50D1FED <=> F_BB6313B31088
+	F_6738C75E8134 <=> F_7D5CCEFC1D1C
+	F_0B5B64C7427E <=> F_3A68237C7103
+	F_9F9D288496E0 <=> F_F2983AAF88AA
+	F_8DADA6063D72 <=> F_D09133D9FBCE
+	F_E0AD228D0940 <=> F_E27528B21C7D
+	F_DE6D85E0DCE0 <=> F_43705EA90AEA
+	F_7E561AFED8C9 <=> F_F2B36D30C2B2
+	F_F695950B1533 <=> F_B11B7C43DA3A
+	F_F62946A5DFC7 <=> F_3601226BB731
+	F_40A829148170 <=> F_6DC838904F56
+	F_D8CC0E8A0992 <=> F_45F1FC08BA81
+	F_847425E031D4 <=> F_C0E3CC7762E9
+	F_D8331ACD2114 <=> F_83ED2CFE7E9D
+	F_8B8322BC200E <=> F_3787B7213205
+	F_6B5D96189428 <=> F_27D82BCA436E
+	F_E3139CC2E0FA <=> F_F0875AE17BEC
+	F_E6B7F2644700 <=> F_354ED1961EDA
+	F_F5CC224041A9 <=> F_A6273D9180AB
+	F_AB48E0834BDA <=> F_F009F047846E
+	F_A0216E14BC97 <=> F_ACED4C55637F
+	F_0DD32BFE0A92 <=> F_02C27124E8CA
+	F_41C1825B657A <=> F_E44310094D4C
+	F_3F2CF6642E28 <=> F_7E5E0FD5074D
+	F_975807CC3902 <=> F_B4DFEC48DA99
+	F_B3F568CC5872 <=> F_F24E2786F1DC
+	F_12D384D9D875 <=> F_9D2039D4613C
+	F_1C93454DFF35 <=> F_F45043F03189
+	F_F86F666C9213 <=> F_AB7524B77FE3
+	F_4AA74B2825D3 <=> F_553FD27EFDFF
+	F_AE55B75F8A03 <=> F_D6DCE208BABA
+	F_B4410AFDAF22 <=> F_60F5D91741D4
+	F_3F1D3007B8D6 <=> F_3F1D3007B8D3
+	F_C38660822897 <=> F_C38660822893
+	F_7CF58ACF1167 <=> F_7CF58ACF1163
+	F_CD5588301DD7 <=> F_CD5588301DD3
+	F_A11BAA2D33B7 <=> F_A11BAA2D33B3
+	F_AB7850D2D637 <=> F_AB7850D2D633
+	F_D3CEC1A73F33 <=> F_DCD1DF24CE1C
+	F_EB24BA48997F <=> F_F2FAE7F66E5A
+	F_31FC9867E78C <=> F_4B33A7C22107
+	F_2C9F348AC0B6 <=> F_8E90C1C23E39
+	F_F3A38FE9EBE4 <=> F_9B53263EC377
+	F_49F00E6E91DD <=> F_D8397852CC89
+	F_D5C78A58C528 <=> F_447E5A36D94F
+	F_149970A1A305 <=> F_53C70BC61D47
+	F_11D91612710E <=> F_A1D162E0FCF9
+	F_651B48767404 <=> F_D995F7288818
+	F_C719B927E7F6 <=> F_165A22CC9A2E
+	F_3431278969A0 <=> F_35297E0EBFF6
+	F_83922928C10F <=> F_63D0258994E2
+	F_F341F04E8270 <=> F_08C6BDCFC9D2
+	F_D519ADF06E81 <=> F_EEC3C1F17AF0
+	F_AE94F8FD236E <=> F_1FDB3C187DFD
+	F_A3375CB59CCE <=> F_981EE997431C
+	F_BFBCBB8D0D85 <=> F_BB1A68D46A1E
+	F_446D0F1F45DA <=> F_826663D93E33
+	F_9857C16EDD28 <=> F_1E89B0D1799F
+	F_99F9D65EDB03 <=> F_128A78CFA4EB
+	F_C3AA994E80F6 <=> F_856EA5DF32C1
+	F_7777F9445935 <=> F_5DA85E1C3028

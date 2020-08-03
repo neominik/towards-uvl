@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			PCIEPORTBUS	
+				optional
+					HOTPLUG_PCI_PCIE
+					PCIEASPM	
+						optional
+							PCIEASPM_DEBUG

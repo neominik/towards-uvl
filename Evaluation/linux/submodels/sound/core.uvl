@@ -1,0 +1,35 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_HRTIMER	
+				optional
+					SND_SEQ_HRTIMER_DEFAULT
+			SND_MIXER_OSS
+			SND_SEQUENCER_OSS
+			SND_RAWMIDI
+			SND_VERBOSE_PROCFS
+			SND_DMA_SGBUF
+			SND_DEBUG	
+				optional
+					SND_DEBUG_VERBOSE
+					SND_PCM_XRUN_DEBUG
+			SND_DYNAMIC_MINORS
+			SND_PCM
+			SND_TIMER
+			SND_HWDEP
+			SND_PCM_OSS	
+				optional
+					SND_PCM_OSS_PLUGINS
+			SND_JACK
+			SND_RTCTIMER	
+				optional
+					SND_SEQ_RTCTIMER_DEFAULT
+			SND_OSSEMUL
+			SND_SUPPORT_OLD_API
+			SND_VMASTER
+			SND_SEQUENCER	
+				optional
+					SND_SEQ_DUMMY
+			SND_VERBOSE_PRINTK

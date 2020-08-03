@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			FB_SM7XX	
+				optional
+					FB_SM7XX_ACCEL

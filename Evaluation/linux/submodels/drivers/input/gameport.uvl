@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			GAMEPORT	
+				optional
+					GAMEPORT_NS558
+					GAMEPORT_L4
+					GAMEPORT_EMU10K1
+					GAMEPORT_FM801

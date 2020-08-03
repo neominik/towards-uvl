@@ -1,0 +1,28 @@
+namespace root
+
+features
+	root	
+		optional
+			FS_MBCACHE
+			FS_XIP
+			MISC_FILESYSTEMS
+			TMPFS	
+				optional
+					TMPFS_POSIX_ACL
+			NETWORK_FILESYSTEMS	
+				optional
+					LOCKD_V4
+					LOCKD
+					NFS_COMMON
+					EXPORTFS
+					NFS_ACL_SUPPORT
+			FS_POSIX_ACL
+			HUGETLB_PAGE
+			CUSE
+			HUGETLBFS
+			FILE_LOCKING
+			GENERIC_ACL
+
+constraints
+	(!TMPFS_POSIX_ACL | !TMPFS | GENERIC_ACL) & (!GENERIC_ACL | TMPFS_POSIX_ACL & TMPFS)
+	(!HUGETLBFS | HUGETLB_PAGE) & (!HUGETLB_PAGE | HUGETLBFS)

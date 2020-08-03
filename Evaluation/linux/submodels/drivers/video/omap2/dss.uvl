@@ -1,0 +1,19 @@
+namespace root
+
+features
+	root	
+		optional
+			OMAP2_DSS	
+				mandatory
+					OMAP2_DSS_MIN_FCK_PER_PCK
+					OMAP2_VRAM_SIZE
+
+				optional
+					OMAP2_DSS_DEBUG_SUPPORT
+					OMAP2_DSS_VENC
+					OMAP2_DSS_SDI
+					OMAP2_DSS_RFBI
+					OMAP2_DSS_DSI	
+						optional
+							OMAP2_DSS_USE_DSI_PLL
+					OMAP2_DSS_FAKE_VSYNC

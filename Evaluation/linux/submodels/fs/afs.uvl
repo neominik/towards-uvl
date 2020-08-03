@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			AFS_FS	
+				optional
+					AFS_DEBUG
+			AFS_FSCACHE

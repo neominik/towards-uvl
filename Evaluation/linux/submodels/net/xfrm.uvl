@@ -1,0 +1,14 @@
+namespace root
+
+features
+	root	
+		optional
+			XFRM_USER
+			XFRM_IPCOMP
+			XFRM_STATISTICS
+			XFRM_MIGRATE
+			NET_KEY	
+				optional
+					NET_KEY_MIGRATE
+			XFRM_SUB_POLICY
+			XFRM

@@ -1,0 +1,30 @@
+namespace root
+
+features
+	root	
+		optional
+			DMADEVICES	
+				optional
+					INTEL_IOP_ADMA
+					MV_XOR
+					NET_DMA
+					TXX9_DMAC
+					SH_DMAE
+					ARCH_HAS_ASYNC_TX_FIND_CHANNEL
+					INTEL_IOATDMA
+					DMA_ENGINE
+					MX3_IPU	
+						mandatory
+							MX3_IPU_IRQS
+					DMATEST
+					COH901318
+					AT_HDMAC
+					ASYNC_TX_DMA
+					FSL_DMA
+					ASYNC_TX_DISABLE_CHANNEL_SWITCH
+					AMCC_PPC440SPE_ADMA
+					DW_DMAC
+
+constraints
+	DMADEVICES & DMA_ENGINE | !ASYNC_TX_DMA
+	DMADEVICES & DMA_ENGINE | !DMATEST

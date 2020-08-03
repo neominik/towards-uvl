@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			SCSI_LOWLEVEL_PCMCIA	
+				optional
+					PCMCIA_SYM53C500
+					PCMCIA_QLOGIC
+					PCMCIA_NINJA_SCSI
+					PCMCIA_AHA152X
+					PCMCIA_FDOMAIN

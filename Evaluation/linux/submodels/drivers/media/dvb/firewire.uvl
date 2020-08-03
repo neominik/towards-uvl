@@ -1,0 +1,10 @@
+namespace root
+
+features
+	root	
+		optional
+			DVB_FIREDTV	
+				optional
+					DVB_FIREDTV_IEEE1394
+					DVB_FIREDTV_INPUT
+					DVB_FIREDTV_FIREWIRE

@@ -1,0 +1,18 @@
+namespace F_4459AF8EF5C3
+
+features
+	F_4459AF8EF5C3	
+		mandatory
+			F_656327585305	
+				alternative
+					F_A91B6C2F9101
+					F_615262019661
+					F_55F539F1F74B
+			F_D829C2301A68	
+				alternative
+					F_CCD414C6E484
+					F_5C198F970D3E
+					F_04526E039819
+
+		optional
+			F_8DF945D73E2D

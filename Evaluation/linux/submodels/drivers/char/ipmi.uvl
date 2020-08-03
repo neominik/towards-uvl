@@ -1,0 +1,14 @@
+namespace root
+
+features
+	root	
+		optional
+			IPMI_HANDLER	
+				optional
+					IPMI_POWEROFF
+					IPMI_SI
+					IPMI_PANIC_EVENT	
+						optional
+							IPMI_PANIC_STRING
+					IPMI_DEVICE_INTERFACE
+					IPMI_WATCHDOG

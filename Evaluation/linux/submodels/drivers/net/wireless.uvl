@@ -1,0 +1,29 @@
+namespace root
+
+features
+	root	
+		optional
+			WLAN	
+				optional
+					USB_ZD1201
+					AT76C50X_USB
+					AIRO
+					MAC80211_HWSIM
+					LIBERTAS_THINFIRM	
+						optional
+							LIBERTAS_THINFIRM_USB
+					ATMEL	
+						optional
+							PCMCIA_ATMEL
+							PCI_ATMEL
+					USB_NET_RNDIS_WLAN
+					ADM8211
+					RTL8180
+					PCMCIA_WL3501
+					AIRO_CS
+					RTL8187	
+						optional
+							RTL8187_LEDS
+					MWL8K
+					PCMCIA_RAYCS
+					PRISM54

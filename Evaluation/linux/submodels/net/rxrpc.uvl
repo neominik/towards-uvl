@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			AF_RXRPC	
+				optional
+					AF_RXRPC_DEBUG
+					RXKAD

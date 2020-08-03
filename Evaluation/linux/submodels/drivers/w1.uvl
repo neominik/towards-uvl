@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			W1	
+				optional
+					W1_CON

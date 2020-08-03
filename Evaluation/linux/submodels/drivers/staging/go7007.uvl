@@ -1,0 +1,17 @@
+namespace root
+
+features
+	root	
+		optional
+			VIDEO_GO7007	
+				optional
+					VIDEO_GO7007_OV7640
+					VIDEO_GO7007_TW9903
+					VIDEO_GO7007_SAA7113
+					VIDEO_GO7007_UDA1342
+					VIDEO_GO7007_TW2804
+					VIDEO_GO7007_SAA7115
+					VIDEO_GO7007_SONY_TUNER
+					VIDEO_GO7007_USB	
+						optional
+							VIDEO_GO7007_USB_S2250_BOARD

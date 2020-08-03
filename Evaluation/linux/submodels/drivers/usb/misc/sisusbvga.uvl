@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			USB_SISUSBVGA	
+				optional
+					USB_SISUSBVGA_CON

@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			SCSI_CXGB3_ISCSI

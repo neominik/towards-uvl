@@ -1,0 +1,18 @@
+namespace root
+
+features
+	root	
+		optional
+			ISDN_HDLC
+			ISDN_DIVERSION
+			ISDN_DRV_LOOP
+			ISDN_AUDIO	
+				optional
+					ISDN_TTY_FAX
+			ISDN_X25
+			ISDN_PPP	
+				optional
+					ISDN_PPP_VJ
+					ISDN_PPP_BSDCOMP
+					ISDN_MPP
+					IPPP_FILTER

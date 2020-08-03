@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			FS_ENET	
+				optional
+					FS_ENET_MDIO_FEC
+					FS_ENET_HAS_SCC
+					FS_ENET_MDIO_FCC
+					FS_ENET_HAS_FCC
+					FS_ENET_HAS_FEC

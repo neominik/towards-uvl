@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			C2PORT	
+				optional
+					C2PORT_DURAMAR_2150

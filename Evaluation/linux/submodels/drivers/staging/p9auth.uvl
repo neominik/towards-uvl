@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			PLAN9AUTH

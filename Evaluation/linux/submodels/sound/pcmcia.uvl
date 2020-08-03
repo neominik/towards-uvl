@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_PCMCIA	
+				optional
+					SND_VXPOCKET
+					SND_PDAUDIOCF

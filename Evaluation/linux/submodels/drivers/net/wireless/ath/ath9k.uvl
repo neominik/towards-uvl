@@ -1,0 +1,10 @@
+namespace root
+
+features
+	root	
+		optional
+			ATH9K_HW
+			ATH9K_COMMON
+			ATH9K	
+				optional
+					ATH9K_DEBUGFS

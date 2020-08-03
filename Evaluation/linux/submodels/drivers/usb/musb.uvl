@@ -1,0 +1,23 @@
+namespace root
+
+features
+	root	
+		mandatory
+			USB_GADGET_MUSB_HDRC
+
+		optional
+			USB_MUSB_HDRC	
+				mandatory
+					USB_MUSB_HOST
+					USB_MUSB_PERIPHERAL
+					USB_MUSB_OTG
+
+				optional
+					USB_MUSB_HDRC_HCD
+					USB_MUSB_SOC
+					USB_TUSB6010
+					MUSB_PIO_ONLY	
+						optional
+							USB_INVENTRA_DMA
+							USB_TUSB_OMAP_DMA
+							USB_TI_CPPI_DMA

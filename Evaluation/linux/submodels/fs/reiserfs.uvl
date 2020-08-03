@@ -1,0 +1,13 @@
+namespace root
+
+features
+	root	
+		optional
+			REISERFS_FS	
+				optional
+					REISERFS_CHECK
+					REISERFS_PROC_INFO
+					REISERFS_FS_XATTR	
+						optional
+							REISERFS_FS_POSIX_ACL
+							REISERFS_FS_SECURITY

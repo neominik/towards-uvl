@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			SCSI_MVSAS	
+				optional
+					SCSI_MVSAS_DEBUG

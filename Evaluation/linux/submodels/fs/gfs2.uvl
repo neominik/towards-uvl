@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			GFS2_FS	
+				optional
+					GFS2_FS_LOCKING_DLM

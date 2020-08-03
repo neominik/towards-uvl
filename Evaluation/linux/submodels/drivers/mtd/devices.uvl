@@ -1,0 +1,39 @@
+namespace root
+
+features
+	root	
+		optional
+			MTD_DOC2001
+			MTD_SST25L
+			MTD_BLOCK2MTD
+			MTD_DATAFLASH	
+				optional
+					MTD_DATAFLASH_WRITE_VERIFY
+					MTD_DATAFLASH_OTP
+			MTD_DOC2001PLUS
+			MTD_DOCPROBE_ADVANCED	
+				optional
+					MTD_DOCPROBE_HIGH
+					MTD_DOCPROBE_ADDRESS
+					MTD_DOCPROBE_55AA
+			MTD_DOCPROBE
+			MTD_DOCECC
+			MTD_DOC2000
+			MTD_MS02NV
+			MTD_SLRAM
+			MTD_MTDRAM	
+				mandatory
+					MTDRAM_ERASE_SIZE
+					MTDRAM_TOTAL_SIZE
+
+				optional
+					MTDRAM_ABS_POS
+			MTD_M25P80	
+				optional
+					M25PXX_USE_FAST_READ
+			MTD_LART
+			MTD_PMC551	
+				optional
+					MTD_PMC551_DEBUG
+					MTD_PMC551_BUGFIX
+			MTD_PHRAM

@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_AOA_SOUNDBUS	
+				optional
+					SND_AOA_SOUNDBUS_I2S

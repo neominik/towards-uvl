@@ -1,0 +1,10 @@
+namespace root
+
+features
+	root	
+		optional
+			SQUASHFS	
+				optional
+					SQUASHFS_EMBEDDED	
+						mandatory
+							SQUASHFS_FRAGMENT_CACHE_SIZE

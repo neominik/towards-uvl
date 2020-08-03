@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_GSC	
+				optional
+					SND_HARMONY

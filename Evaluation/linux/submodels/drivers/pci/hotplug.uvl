@@ -1,0 +1,24 @@
+namespace root
+
+features
+	root	
+		optional
+			HOTPLUG_PCI	
+				optional
+					HOTPLUG_PCI_SHPC
+					HOTPLUG_PCI_SGI
+					HOTPLUG_PCI_IBM
+					HOTPLUG_PCI_ACPI	
+						optional
+							HOTPLUG_PCI_ACPI_IBM
+					HOTPLUG_PCI_COMPAQ	
+						optional
+							HOTPLUG_PCI_COMPAQ_NVRAM
+					HOTPLUG_PCI_RPA	
+						optional
+							HOTPLUG_PCI_RPA_DLPAR
+					HOTPLUG_PCI_FAKE
+					HOTPLUG_PCI_CPCI	
+						optional
+							HOTPLUG_PCI_CPCI_ZT5550
+							HOTPLUG_PCI_CPCI_GENERIC

@@ -1,0 +1,14 @@
+namespace root
+
+features
+	root	
+		optional
+			DCSSBLK
+			DASD	
+				optional
+					DASD_FBA
+					DASD_DIAG
+					DASD_ECKD
+					DASD_EER
+					DASD_PROFILE
+			BLK_DEV_XPRAM

@@ -1,0 +1,56 @@
+namespace root
+
+features
+	root	
+		mandatory
+			MMC_AT91
+			MMC_ATMELMCI
+
+		optional
+			MMC_SDHCI	
+				optional
+					MMC_SDHCI_IO_ACCESSORS
+			MMC_WBSD
+			MMC_CB710
+			MMC_TIFM_SD
+			MMC_MVSDIO
+			MMC_SDHCI_BIG_ENDIAN_32BIT_BYTE_SWAPPER
+			MMC_OMAP
+			MMC_IMX
+			MMC_ARMMMCI
+			SDH_BFIN	
+				optional
+					SDH_BFIN_MISSING_CMD_PULLUP_WORKAROUND
+			MMC_DAVINCI
+			MMC_S3C	
+				mandatory
+					MMC_S3C_PIO
+					MMC_S3C_DMA
+					MMC_S3C_PIODMA
+
+				optional
+					MMC_S3C_HW_SDIO_IRQ
+			MMC_ATMELMCI_DMA
+			MMC_VIA_SDMMC
+			MMC_SPI
+			MMC_PXA
+			MMC_SDRICOH_CS
+			MMC_SDHCI_OF	
+				optional
+					MMC_SDHCI_OF_ESDHC
+					MMC_SDHCI_OF_HLWD
+			MMC_MSM7X00A
+			MMC_SDHCI_PLTFM
+			MMC_AU1X
+			MMC_OMAP_HS
+			MMC_TMIO
+			MMC_MXC
+			MMC_SDHCI_S3C	
+				optional
+					MMC_SDHCI_S3C_DMA
+			MMC_SDHCI_PCI	
+				optional
+					MMC_RICOH_MMC
+
+constraints
+	!MMC_AT91 | !MMC_ATMELMCI

@@ -1,0 +1,30 @@
+namespace root
+
+features
+	root	
+		optional
+			JFFS2_FS	
+				mandatory
+					JFFS2_FS_DEBUG
+
+				optional
+					JFFS2_COMPRESSION_OPTIONS	
+						mandatory
+							JFFS2_CMODE_NONE
+							JFFS2_CMODE_PRIORITY
+							JFFS2_CMODE_SIZE
+							JFFS2_CMODE_FAVOURLZO
+
+						optional
+							JFFS2_LZO
+							JFFS2_ZLIB
+							JFFS2_RTIME
+							JFFS2_RUBIN
+					JFFS2_SUMMARY
+					JFFS2_FS_WRITEBUFFER	
+						optional
+							JFFS2_FS_WBUF_VERIFY
+					JFFS2_FS_XATTR	
+						optional
+							JFFS2_FS_POSIX_ACL
+							JFFS2_FS_SECURITY

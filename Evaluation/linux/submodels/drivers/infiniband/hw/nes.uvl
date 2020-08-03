@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			INFINIBAND_NES	
+				optional
+					INFINIBAND_NES_DEBUG

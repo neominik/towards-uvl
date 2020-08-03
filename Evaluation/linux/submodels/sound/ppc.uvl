@@ -1,0 +1,13 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_PPC	
+				optional
+					SND_POWERMAC	
+						optional
+							SND_POWERMAC_AUTO_DRC
+					SND_PS3	
+						mandatory
+							SND_PS3_DEFAULT_START_DELAY

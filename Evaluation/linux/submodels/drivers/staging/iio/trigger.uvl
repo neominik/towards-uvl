@@ -1,0 +1,7 @@
+namespace root
+
+features
+	root	
+		optional
+			IIO_PERIODIC_RTC_TRIGGER
+			IIO_GPIO_TRIGGER

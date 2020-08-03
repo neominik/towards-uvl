@@ -1,0 +1,37 @@
+namespace root
+
+features
+	root	
+		optional
+			EDAC	
+				optional
+					EDAC_MM_EDAC	
+						optional
+							EDAC_I82875P
+							EDAC_CELL
+							EDAC_I3000
+							EDAC_I3200
+							EDAC_AMD64	
+								optional
+									EDAC_AMD64_ERROR_INJECTION
+							EDAC_PASEMI
+							EDAC_X38
+							EDAC_AMD8131
+							EDAC_CPC925
+							EDAC_I5400
+							EDAC_I82860
+							EDAC_MV64X60
+							EDAC_R82600
+							EDAC_MPC85XX
+							EDAC_E7XXX
+							EDAC_I5000
+							EDAC_AMD8111
+							EDAC_AMD76X
+							EDAC_I5100
+							EDAC_E752X
+							EDAC_I82975X
+							EDAC_PPC4XX
+							EDAC_I82443BXGX
+					EDAC_DEBUG	
+						optional
+							EDAC_DEBUG_VERBOSE

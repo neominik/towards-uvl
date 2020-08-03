@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			ECONET	
+				optional
+					ECONET_AUNUDP
+					ECONET_NATIVE

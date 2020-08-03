@@ -1,0 +1,34 @@
+namespace root
+
+features
+	root	
+		optional
+			INPUT_MOUSE	
+				optional
+					MOUSE_PS2	
+						optional
+							MOUSE_PS2_TRACKPOINT
+							MOUSE_PS2_SENTELIC
+							MOUSE_PS2_LOGIPS2PP
+							MOUSE_PS2_ELANTECH
+							MOUSE_PS2_LIFEBOOK
+							MOUSE_PS2_ALPS
+							MOUSE_PS2_SYNAPTICS
+							MOUSE_PS2_TOUCHKIT
+							MOUSE_PS2_OLPC
+					MOUSE_VSXXXAA
+					MOUSE_MAPLE
+					MOUSE_BCM5974
+					MOUSE_APPLETOUCH
+					MOUSE_SYNAPTICS_I2C
+					MOUSE_GPIO
+					MOUSE_INPORT	
+						optional
+							MOUSE_ATIXL
+					MOUSE_LOGIBM
+					MOUSE_RISCPC
+					MOUSE_PC110PAD
+					MOUSE_SERIAL
+					MOUSE_PXA930_TRKBALL
+					MOUSE_AMIGA
+					MOUSE_ATARI

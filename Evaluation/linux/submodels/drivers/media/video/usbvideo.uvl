@@ -1,0 +1,10 @@
+namespace root
+
+features
+	root	
+		optional
+			USB_VICAM
+			USB_IBMCAM
+			USB_KONICAWC
+			VIDEO_USBVIDEO
+			USB_QUICKCAM_MESSENGER

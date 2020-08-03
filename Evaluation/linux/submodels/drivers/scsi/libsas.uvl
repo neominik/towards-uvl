@@ -1,0 +1,10 @@
+namespace root
+
+features
+	root	
+		optional
+			SCSI_SAS_LIBSAS	
+				optional
+					SCSI_SAS_LIBSAS_DEBUG
+					SCSI_SAS_HOST_SMP
+					SCSI_SAS_ATA

@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			DVB_PT1

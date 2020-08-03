@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			SCSI_AIC94XX	
+				optional
+					AIC94XX_DEBUG

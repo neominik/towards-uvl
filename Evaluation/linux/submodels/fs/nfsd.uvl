@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			NFSD	
+				optional
+					NFSD_V3	
+						optional
+							NFSD_V3_ACL
+					NFSD_V4
+					NFSD_V2_ACL

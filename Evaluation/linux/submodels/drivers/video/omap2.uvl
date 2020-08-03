@@ -1,0 +1,7 @@
+namespace root
+
+features
+	root	
+		optional
+			OMAP2_VRAM
+			OMAP2_VRFB

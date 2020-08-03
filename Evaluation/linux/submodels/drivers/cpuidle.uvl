@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			CPU_IDLE	
+				optional
+					CPU_IDLE_GOV_MENU
+					CPU_IDLE_GOV_LADDER
+
+constraints
+	(!CPU_IDLE | CPU_IDLE_GOV_LADDER) & (!CPU_IDLE_GOV_LADDER | CPU_IDLE)

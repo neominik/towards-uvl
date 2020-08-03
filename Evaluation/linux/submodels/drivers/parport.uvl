@@ -1,0 +1,22 @@
+namespace root
+
+features
+	root	
+		optional
+			PARPORT	
+				optional
+					PARPORT_1284
+					PARPORT_ATARI
+					PARPORT_PC	
+						optional
+							PARPORT_PC_SUPERIO
+							PARPORT_SERIAL
+							PARPORT_PC_FIFO
+							PARPORT_PC_PCMCIA
+					PARPORT_MFC3
+					PARPORT_GSC
+					PARPORT_NOT_PC
+					PARPORT_AMIGA
+					PARPORT_SUNBPP
+					PARPORT_IP32
+					PARPORT_AX88796

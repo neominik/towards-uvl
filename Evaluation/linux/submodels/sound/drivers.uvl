@@ -1,0 +1,24 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_DRIVERS	
+				optional
+					SND_MTS64
+					SND_MPU401
+					SND_MTPAV
+					SND_PORTMAN2X4
+					SND_VIRMIDI
+					SND_ML403_AC97CR
+					SND_AC97_POWER_SAVE	
+						mandatory
+							SND_AC97_POWER_SAVE_DEFAULT
+					SND_PCSP
+					SND_SERIAL_U16550
+					SND_DUMMY
+			SND_AC97_CODEC
+			SND_OPL3_LIB
+			SND_OPL4_LIB
+			SND_VX_LIB
+			SND_MPU401_UART

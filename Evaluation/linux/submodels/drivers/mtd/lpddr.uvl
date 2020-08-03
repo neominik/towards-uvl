@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			MTD_LPDDR	
+				optional
+					MTD_QINFO_PROBE

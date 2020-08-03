@@ -1,0 +1,10 @@
+namespace root
+
+features
+	root	
+		optional
+			USB_HID
+			USB_HIDDEV
+			USB_MOUSE
+			HID_PID
+			USB_KBD

@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			INPUT_TABLET	
+				optional
+					TABLET_USB_AIPTEK
+					TABLET_USB_ACECAD
+					TABLET_USB_KBTAB
+					TABLET_USB_GTCO
+					TABLET_USB_WACOM

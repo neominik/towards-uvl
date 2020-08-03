@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			GCOV_KERNEL	
+				optional
+					GCOV_PROFILE_ALL

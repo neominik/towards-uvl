@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			VLYNQ	
+				optional
+					VLYNQ_DEBUG

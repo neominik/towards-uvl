@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			USB_ATM	
+				optional
+					USB_SPEEDTOUCH
+					USB_UEAGLEATM
+					USB_XUSBATM
+					USB_CXACRU

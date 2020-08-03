@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			JFS_FS	
+				optional
+					JFS_STATISTICS
+					JFS_DEBUG
+					JFS_SECURITY
+					JFS_POSIX_ACL

@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			MCA_LEGACY	
+				optional
+					MCA_PROC_FS

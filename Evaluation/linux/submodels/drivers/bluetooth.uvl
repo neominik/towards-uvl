@@ -1,0 +1,23 @@
+namespace root
+
+features
+	root	
+		optional
+			BT_HCIBTSDIO
+			BT_HCIBTUART
+			BT_HCIBTUSB
+			BT_HCIBFUSB
+			BT_HCIUART	
+				optional
+					BT_HCIUART_LL
+					BT_HCIUART_H4
+					BT_HCIUART_BCSP
+			BT_HCIDTL1
+			BT_HCIBT3C
+			BT_MRVL	
+				optional
+					BT_MRVL_SDIO
+			BT_HCIBLUECARD
+			BT_HCIBCM203X
+			BT_HCIBPA10X
+			BT_HCIVHCI

@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_S6000_SOC_I2S
+			SND_S6000_SOC
+			SND_S6000_SOC_S6IPCAM

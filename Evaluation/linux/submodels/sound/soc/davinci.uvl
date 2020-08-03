@@ -1,0 +1,10 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_DAVINCI_SOC_EVM
+			SND_DAVINCI_SOC
+			SND_DAVINCI_SOC_I2S
+			SND_DAVINCI_SOC_MCASP
+			SND_DAVINCI_SOC_SFFSDR

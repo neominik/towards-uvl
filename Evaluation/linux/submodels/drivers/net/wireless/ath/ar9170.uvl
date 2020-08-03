@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			AR9170_USB	
+				optional
+					AR9170_LEDS

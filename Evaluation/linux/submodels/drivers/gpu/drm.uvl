@@ -1,0 +1,24 @@
+namespace root
+
+features
+	root	
+		optional
+			DRM	
+				optional
+					DRM_TDFX
+					DRM_KMS_HELPER
+					DRM_MGA
+					DRM_VIA
+					DRM_R128
+					DRM_I810
+					DRM_SIS
+					DRM_TTM
+					DRM_I915	
+						optional
+							DRM_I915_KMS
+					DRM_RADEON
+					DRM_I830
+					DRM_SAVAGE
+
+constraints
+	!DRM_I830 | !DRM_I915

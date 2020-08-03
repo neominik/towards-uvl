@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			ADFS_FS	
+				optional
+					ADFS_FS_RW

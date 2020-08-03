@@ -1,0 +1,17 @@
+namespace root
+
+features
+	root	
+		optional
+			MISDN_INFINEON
+			MISDN_AVMFRITZ
+			MISDN_W6692
+			MISDN_IPAC
+			MISDN_HFCPCI
+			MISDN_HFCMULTI	
+				optional
+					MISDN_HFCMULTI_8xx
+			MISDN_HFCUSB
+			MISDN_SPEEDFAX
+			MISDN_NETJET
+			MISDN_ISAR

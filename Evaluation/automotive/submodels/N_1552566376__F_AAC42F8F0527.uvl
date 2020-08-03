@@ -1,0 +1,14 @@
+namespace N_1552566376__F_AAC42F8F0527
+
+features
+	N_1552566376__F_AAC42F8F0527	
+		mandatory
+			F_A23FAA8A8416	
+				alternative
+					F_88F23F323EF4
+					F_532681C80EF4
+
+		optional
+			F_CF997FA1E40D
+			F_E5574F3A640D
+			F_D9BC68FC2084

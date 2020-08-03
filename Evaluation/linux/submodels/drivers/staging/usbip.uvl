@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			USB_IP_COMMON	
+				optional
+					USB_IP_VHCI_HCD
+					USB_IP_HOST

@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			PANEL_GENERIC
+			PANEL_TAAL
+			PANEL_SHARP_LS037V7DW01

@@ -1,0 +1,16 @@
+namespace root
+
+features
+	root	
+		optional
+			SND_SOC_OF_SIMPLE
+			SND_SOC_MPC8610_HPCD
+			SND_MPC52xx_SOC_PCM030
+			SND_SOC_MPC8610
+			SND_MPC52xx_SOC_EFIKA
+			SND_SOC_MPC5200_I2S
+			SND_SOC_MPC5200_AC97
+			SND_MPC52xx_DMA
+
+constraints
+	!SND_SOC_OF_SIMPLE

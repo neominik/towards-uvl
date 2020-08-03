@@ -1,0 +1,7 @@
+namespace root
+
+features
+	root	
+		optional
+			I7300_IDLE_IOAT_CHANNEL
+			I7300_IDLE

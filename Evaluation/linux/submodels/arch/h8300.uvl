@@ -1,0 +1,26 @@
+namespace root
+
+features
+	root	
+		mandatory
+			HZ
+
+		optional
+			GENERIC_TIME
+			PCI
+			GENERIC_HARDIRQS
+			GENERIC_CALIBRATE_DELAY
+			VT	
+				optional
+					VT_CONSOLE
+					HW_CONSOLE
+			RWSEM_GENERIC_SPINLOCK
+			ISA
+			MMU
+			GENERIC_FIND_NEXT_BIT
+			GENERIC_HWEIGHT
+			ZONE_DMA
+			SWAP
+			GENERIC_BUG
+			UNIX98_PTYS
+			RWSEM_XCHGADD_ALGORITHM

@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			RTL8192U

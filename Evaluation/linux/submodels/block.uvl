@@ -1,0 +1,13 @@
+namespace root
+
+features
+	root	
+		optional
+			BLOCK	
+				optional
+					BLK_DEV_INTEGRITY
+					BLK_DEV_BSG
+					BLK_CGROUP
+					LBDAF
+					DEBUG_BLK_CGROUP
+					BLOCK_COMPAT

@@ -1,0 +1,15 @@
+namespace root
+
+features
+	root	
+		optional
+			INFINIBAND	
+				optional
+					INFINIBAND_ADDR_TRANS
+					INFINIBAND_USER_ACCESS	
+						optional
+							INFINIBAND_USER_MEM
+					INFINIBAND_USER_MAD
+
+constraints
+	(!INFINIBAND | !INFINIBAND_USER_ACCESS | INFINIBAND_USER_MEM) & (!INFINIBAND_USER_MEM | INFINIBAND & INFINIBAND_USER_ACCESS)

@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			ISO9660_FS	
+				optional
+					JOLIET
+					ZISOFS

@@ -1,0 +1,7 @@
+namespace root
+
+features
+	root	
+		optional
+			USB_MDC800
+			USB_MICROTEK

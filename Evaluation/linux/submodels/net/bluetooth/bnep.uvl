@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			BT_BNEP	
+				optional
+					BT_BNEP_PROTO_FILTER
+					BT_BNEP_MC_FILTER

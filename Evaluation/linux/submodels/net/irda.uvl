@@ -1,0 +1,11 @@
+namespace root
+
+features
+	root	
+		optional
+			IRDA	
+				optional
+					IRDA_ULTRA
+					IRDA_CACHE_LAST_LSAP
+					IRDA_FAST_RR
+					IRDA_DEBUG

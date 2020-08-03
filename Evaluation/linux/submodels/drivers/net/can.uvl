@@ -1,0 +1,14 @@
+namespace root
+
+features
+	root	
+		optional
+			CAN_DEV	
+				optional
+					CAN_BFIN
+					CAN_TI_HECC
+					CAN_CALC_BITTIMING
+					CAN_AT91
+					CAN_MCP251X
+			CAN_VCAN
+			CAN_DEBUG_DEVICES

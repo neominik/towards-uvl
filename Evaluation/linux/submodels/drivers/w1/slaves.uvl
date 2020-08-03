@@ -1,0 +1,13 @@
+namespace root
+
+features
+	root	
+		optional
+			W1_SLAVE_DS2433	
+				optional
+					W1_SLAVE_DS2433_CRC
+			W1_SLAVE_DS2760
+			W1_SLAVE_BQ27000
+			W1_SLAVE_SMEM
+			W1_SLAVE_THERM
+			W1_SLAVE_DS2431

@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			JOYSTICK_IFORCE	
+				optional
+					JOYSTICK_IFORCE_232
+					JOYSTICK_IFORCE_USB

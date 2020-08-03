@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			CAN	
+				optional
+					CAN_BCM
+					CAN_RAW

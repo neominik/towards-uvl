@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			BTRFS_FS	
+				optional
+					BTRFS_FS_POSIX_ACL

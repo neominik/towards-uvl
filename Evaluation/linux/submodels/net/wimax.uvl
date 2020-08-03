@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			WIMAX	
+				mandatory
+					WIMAX_DEBUG_LEVEL

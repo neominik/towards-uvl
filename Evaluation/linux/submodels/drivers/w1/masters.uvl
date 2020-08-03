@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			HDQ_MASTER_OMAP
+			W1_MASTER_DS2490
+			W1_MASTER_MATROX
+			W1_MASTER_DS2482
+			W1_MASTER_MXC
+			W1_MASTER_GPIO
+			W1_MASTER_DS1WM

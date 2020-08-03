@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			VIDEO_CX25821	
+				optional
+					VIDEO_CX25821_ALSA

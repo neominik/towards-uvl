@@ -1,0 +1,7 @@
+namespace root
+
+features
+	root	
+		optional
+			JBD2
+			JBD2_DEBUG

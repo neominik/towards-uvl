@@ -1,0 +1,14 @@
+namespace root
+
+features
+	root	
+		optional
+			ISDN_DRV_GIGASET	
+				optional
+					GIGASET_CAPI
+					GIGASET_M105
+					GIGASET_I4L
+					GIGASET_DEBUG
+					GIGASET_DUMMYLL
+					GIGASET_BASE
+					GIGASET_M101

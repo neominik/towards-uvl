@@ -1,0 +1,82 @@
+namespace root
+
+features
+	root	
+		mandatory
+			MSND_FIFOSIZE
+
+		optional
+			SOUND_SH_DAC_AUDIO	
+				mandatory
+					SOUND_SH_DAC_AUDIO_CHANNEL
+			SOUND_MSNDPIN	
+				mandatory
+					MSNDPIN_INIT_FILE
+					MSNDPIN_IRQ
+					MSNDPIN_PERM_FILE
+
+				optional
+					MSNDPIN_MEM
+					MSNDPIN_DIGITAL
+					MSNDPIN_IO
+					MSNDPIN_HAVE_BOOT
+					MSNDPIN_NONPNP	
+						mandatory
+							MSNDPIN_IDE_IRQ
+							MSNDPIN_MPU_IRQ
+
+						optional
+							MSNDPIN_JOYSTICK_IO
+							MSNDPIN_CFG
+							MSNDPIN_IDE_IO1
+							MSNDPIN_IDE_IO0
+							MSNDPIN_MPU_IO
+			SOUND_OSS	
+				optional
+					SOUND_PSS	
+						optional
+							PSS_HAVE_BOOT	
+								mandatory
+									PSS_BOOT_FILE
+							PSS_MIXER
+					SOUND_TRACEINIT
+					SOUND_MSS
+					SOUND_TRIX	
+						optional
+							TRIX_HAVE_BOOT	
+								mandatory
+									TRIX_BOOT_FILE
+					SOUND_YM3812
+					SOUND_KAHLUA
+					SOUND_VMIDI
+					SOUND_PAS	
+						optional
+							PAS_JOYSTICK
+					SOUND_WAVEARTIST
+					SOUND_MPU401
+					SOUND_SB
+					SOUND_AEDSP16	
+						optional
+							SC6600	
+								mandatory
+									SC6600_CDROM
+
+								optional
+									SC6600_CDROMBASE
+									SC6600_JOY
+					SOUND_DMAP
+					SOUND_VIDC
+					SOUND_UART6850
+			SOUND_AU1550_AC97
+			SOUND_BCM_CS4297A
+			SOUND_VWSND
+			SOUND_MSNDCLAS	
+				mandatory
+					MSNDCLAS_INIT_FILE
+					MSNDCLAS_PERM_FILE
+					MSNDCLAS_IRQ
+
+				optional
+					MSNDCLAS_HAVE_BOOT
+					MSNDCLAS_MEM
+					MSNDCLAS_IO

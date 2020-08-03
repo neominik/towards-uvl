@@ -1,0 +1,8 @@
+namespace root
+
+features
+	root	
+		optional
+			I2C_ALGOPCA
+			I2C_ALGOBIT
+			I2C_ALGOPCF

@@ -1,0 +1,45 @@
+namespace root
+
+features
+	root	
+		optional
+			KSDAZZLE_DONGLE
+			EP7211_DONGLE
+			MCS_FIR
+			USB_IRDA
+			DONGLE	
+				optional
+					TEKRAM_DONGLE
+					LITELINK_DONGLE
+					TOIM3232_DONGLE
+					MCP2120_DONGLE
+					OLD_BELKIN_DONGLE
+					ACTISYS_DONGLE
+					GIRBIL_DONGLE
+					MA600_DONGLE
+					ESI_DONGLE
+					ACT200L_DONGLE
+			SA1100_FIR
+			VLSI_FIR
+			KS959_DONGLE
+			SIGMATEL_FIR
+			NSC_FIR
+			WINBOND_FIR
+			VIA_FIR
+			BFIN_SIR	
+				mandatory
+					SIR_BFIN_DMA
+					SIR_BFIN_PIO
+
+				optional
+					BFIN_SIR1
+					BFIN_SIR3
+					BFIN_SIR0
+					BFIN_SIR2
+			KINGSUN_DONGLE
+			AU1000_FIR
+			TOSHIBA_FIR
+			SMC_IRCC_FIR
+			PXA_FICP
+			IRTTY_SIR
+			ALI_FIR

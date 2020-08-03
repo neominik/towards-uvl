@@ -1,0 +1,9 @@
+namespace root
+
+features
+	root	
+		optional
+			RFKILL	
+				optional
+					RFKILL_LEDS
+					RFKILL_INPUT

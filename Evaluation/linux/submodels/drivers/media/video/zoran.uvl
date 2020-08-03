@@ -1,0 +1,15 @@
+namespace root
+
+features
+	root	
+		optional
+			VIDEO_ZORAN	
+				optional
+					VIDEO_ZORAN_DC30
+					VIDEO_ZORAN_ZR36060	
+						optional
+							VIDEO_ZORAN_BUZ
+							VIDEO_ZORAN_LML33
+							VIDEO_ZORAN_AVS6EYES
+							VIDEO_ZORAN_LML33R10
+							VIDEO_ZORAN_DC10

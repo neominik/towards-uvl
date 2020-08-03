@@ -1,0 +1,48 @@
+namespace root
+
+features
+	root	
+		optional
+			PCCARD	
+				optional
+					PCMCIA_VRC4171
+					TCIC
+					PD6729
+					I82092
+					PCMCIA_PROBE
+					BFIN_CFPCMCIA
+					I82365
+					PCCARD_NONSTATIC
+					PCMCIA_SA1100
+					M32R_PCC
+					CARDBUS
+					PCMCIA_VRC4173
+					PCMCIA_M8XX
+					PCMCIA_SA1111
+					ELECTRA_CF
+					PCMCIA	
+						optional
+							PCMCIA_IOCTL
+							PCMCIA_LOAD_CIS
+					PCMCIA_DEBUG
+					PCMCIA_AU1X00
+					AT91_CF
+					M32R_CFC	
+						mandatory
+							M32R_CFC_NUM
+					PCMCIA_PXA2XX
+					PCCARD_IODYN
+					OMAP_CF
+					PCMCIA_BCM63XX
+					YENTA	
+						optional
+							YENTA_TOSHIBA
+							YENTA_RICOH
+							YENTA_O2
+							YENTA_TI	
+								optional
+									YENTA_ENE_TUNE
+					PCMCIA_SOC_COMMON
+
+constraints
+	PCCARD & (PCMCIA_SA1111 | PCMCIA_SA1100 | PCMCIA_PXA2XX) | !PCMCIA_DEBUG

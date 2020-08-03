@@ -1,0 +1,12 @@
+namespace root
+
+features
+	root	
+		optional
+			ROMFS_ON_MTD
+			ROMFS_FS	
+				alternative
+					ROMFS_BACKED_BY_BLOCK
+					ROMFS_BACKED_BY_MTD
+					ROMFS_BACKED_BY_BOTH
+			ROMFS_ON_BLOCK

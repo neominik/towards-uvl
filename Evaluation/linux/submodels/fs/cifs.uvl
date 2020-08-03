@@ -1,0 +1,18 @@
+namespace root
+
+features
+	root	
+		optional
+			CIFS	
+				optional
+					CIFS_EXPERIMENTAL
+					CIFS_UPCALL
+					CIFS_DEBUG2
+					CIFS_DFS_UPCALL
+					CIFS_STATS	
+						optional
+							CIFS_STATS2
+					CIFS_XATTR	
+						optional
+							CIFS_POSIX
+					CIFS_WEAK_PW_HASH

@@ -1,0 +1,6 @@
+namespace root
+
+features
+	root	
+		optional
+			CODA_FS

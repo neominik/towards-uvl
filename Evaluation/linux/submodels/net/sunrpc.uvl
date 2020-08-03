@@ -1,0 +1,10 @@
+namespace root
+
+features
+	root	
+		optional
+			RPCSEC_GSS_KRB5
+			SUNRPC_XPRT_RDMA
+			RPCSEC_GSS_SPKM3
+			SUNRPC_GSS
+			SUNRPC
