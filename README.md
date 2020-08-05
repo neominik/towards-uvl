@@ -23,3 +23,9 @@ The submodels for the Linux kernel have been created from the main model and the
 Analysis results for the number of features, max indentation level, and max sibling distance per submodel can be recreated by running the main method of [Analyze.java](https://github.com/neominik/towards-uvl/blob/master/Evaluation/src/de/neominik/uvl/thesis/Analyze.java) (Uses the `Files.writeString()` method of Java 11, but could be ported to be Java 8 compatible quickly).
 
 For the file-size comparison, we include the models as exported by FeatureIDE next to the main xml models in their corresponding folders ([automotive](https://github.com/neominik/towards-uvl/tree/master/Evaluation/automotive) and [linux](https://github.com/neominik/towards-uvl/tree/master/Evaluation/linux)).
+
+## License
+
+Copyright © 2020 Dominik Engelhardt
+
+This software is released under the MIT License (see the file LICENSE for details).
