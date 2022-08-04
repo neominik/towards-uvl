@@ -8,7 +8,7 @@ The slides that Thomas and me presented at MODEVAR 2020 to initiate discussions 
 
 ## Parser Library for UVL
 
-The library containing a parser and a printer for the Universal Variability Language is maintained in a separate repository: [uvl-parser](https://github.com/neominik/uvl-parser)
+The library containing a parser and a printer for the Universal Variability Language is maintained in a separate repository: [uvl-parser](https://github.com/Universal-Variability-Language/uvl-parser)
 
 It has been integrated into [FeatureIDE](https://featureide.github.io). My [fork](https://github.com/neominik/FeatureIDE) with the corresponding changes and the relevant pull requests: [1050](https://github.com/FeatureIDE/FeatureIDE/pull/1050) and [1069](https://github.com/FeatureIDE/FeatureIDE/pull/1069)
 
